@@ -1,4 +1,6 @@
 
+const initialLanguages = require( '../_data/languages' ).initial_list;
+
 const listenForKeyCodes = ( item, e ) => {
 	if ( 32 === e.keyCode ) {
 		slider.appendChild( item );	
@@ -100,13 +102,29 @@ const updateItemOnBoardState = ( item ) => {
 
 const log = c => console.log( c );
 
+const slider = document.getElementById( 'slider' );
+const inventory = document.getElementById( 'inventory' );
+const finalMessage = document.getElementById( 'finalMessage' );
 
-document.addEventListener( 'DOMContentLoaded', () => {
-	log( 'loaded' );
+const createItemNode = ( name ) => {
+	const button = document.createElement( 'button' );
+	button.innerHTML = name;
+	button.classList.add( 'js-item' );
+	button.setAttribute( 'aria-label', name );
+	return button;
+};
+// console.log('hi');
+
+window.addEventListener( 'load', () => {
+	console.log('loaded');
+
+	// TODO: this should be done server-side with a templating language
+	initialLanguages.forEach( ( language ) => {
+		let item = createItemNode( language );
+		inventory.prepend( item );
+	});
+
 	const items = document.querySelectorAll( '.js-item' );
-	const slider = document.getElementById( 'slider' );
-	const inventory = document.getElementById( 'inventory' );
-	const finalMessage = document.getElementById( 'finalMessage' );
 
 	items.forEach( (item) => {
 		item.onfocus = () => {	
