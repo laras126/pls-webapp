@@ -59,11 +59,6 @@ body {
 	padding: 1rem;
 }
 
-.u-padding-lr-2 {
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-
 .u-padding-tb-2 {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -79,6 +74,18 @@ body {
 
 .u-background-yellow {
 	background-color: lemonchiffon;
+}
+
+.u-font-size-16 {
+	font-size: 1rem;
+}
+
+.u-font-size-20 {
+	font-size: 1.25rem;
+}
+
+.u-font-size-24 {
+	font-size: 1.5rem;
 }
 
 @media screen and ( min-width: 700px ) {
@@ -100,6 +107,7 @@ body {
 }
 
 .js-item {
+	font-size: 0.75rem;
 	white-space: nowrap;
 	padding: 0.75rem;
 	border: 2px solid black;
