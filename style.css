@@ -2,6 +2,7 @@
 
 :root {
 	--positionX: 50;
+	--rotation: -60;
 }
 
 * {
@@ -75,7 +76,7 @@ body {
 /* JS */ 
 
 .is-selected {
-	z-index: 5;
+	z-index: 5000;
 }
 
 .js-item {
@@ -97,7 +98,7 @@ body {
 	top: 50%;
 	right: auto;
 	left: calc( var( --positionX ) * 1% );
-	transform: translateX( -50% ) translateY( -50% ) rotate( -60deg );
+	transform: translateX( -50% ) translateY( -50% ) rotate( calc( var( --rotation ) * 1deg ) );
 }
 
 .js-slider {

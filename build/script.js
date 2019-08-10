@@ -10,18 +10,13 @@ const initialLanguages = require( '../_data/languages' ).initial_list;
 
 const listenForKeyCodes = ( item, e ) => {
 	if ( 32 === e.keyCode ) {
-		slider.appendChild( item );	
-		item.focus();
-		updateItemOnBoardState( item );
-		updateItemSelectedState( item );
-		log( item.innerHTML + ' move item to board' );
+		addItemToBoard( item );
 	}
 
 	// Move Left
 	if ( item.classList.contains( 'is-onboard' ) ) {
 		const styles = window.getComputedStyle( item );
 		const itemX = styles.getPropertyValue( '--positionX' );
-		log( typeof parseInt(itemX) );
 
 		let currentX = parseInt(itemX);
 		
@@ -48,6 +43,18 @@ const listenForKeyCodes = ( item, e ) => {
 	}
 };
 
+const addItemToBoard = ( item )=> {
+	slider.appendChild( item );	
+	item.focus();
+	updateItemOnBoardState( item );
+	updateItemSelectedState( item );
+	Draggable.create( item, {
+		type: "x",
+		bounds: slider,
+		dragClickables: true,
+	});
+};
+
 const getNewX = ( currentX, direction ) => {
 	
 	let newX;
@@ -68,7 +75,7 @@ const getNewX = ( currentX, direction ) => {
 };
 
 const updateItemSelectedState = ( item ) => {
-	let selectedString = '- Selected, spacebar to move to board';
+	let selectedString = ' - Selected, spacebar to move to board';
 	let itemLabel = item.getAttribute( 'aria-label' );
 
 	if ( document.activeElement == item ) {
@@ -123,6 +130,7 @@ const createItemNode = ( name ) => {
 // console.log('hi');
 
 window.addEventListener( 'load', () => {
+	
 	console.log('loaded');
 
 	// TODO: this should be done server-side with a templating language
@@ -131,6 +139,8 @@ window.addEventListener( 'load', () => {
 		inventory.prepend( item );
 	});
 
+
+	// Add item listeners
 	const items = document.querySelectorAll( '.js-item' );
 
 	items.forEach( (item) => {
@@ -145,6 +155,7 @@ window.addEventListener( 'load', () => {
 		item.onclick = () => {
 			item.focus();
 			updateItemSelectedState( item );
+			addItemToBoard( item );
 		}
 		
 		item.onkeydown = ( e ) => {
