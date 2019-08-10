@@ -1,0 +1,25 @@
+{
+  "name": "pls-webapp",
+  "version": "1.0.0",
+  "description": "A data collection webapp",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "browserify ./src/script.js -o ./build/script.js",
+    "watch": "onchange ./src/*.js -- npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laras126/pls-webapp.git"
+  },
+  "author": "@laras126 and @felienne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laras126/pls-webapp/issues"
+  },
+  "homepage": "https://github.com/laras126/pls-webapp#readme",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "onchange": "^6.0.0"
+  }
+}
