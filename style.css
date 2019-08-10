@@ -81,13 +81,13 @@ body {
 	background-color: lemonchiffon;
 }
 
-@media ( min-width: 700px ) {
+@media screen and ( min-width: 700px ) {
 	.u-hidden\@tablet {
 		display: none;
 	}
 }
 
-@media ( orientation: landscape ) {
+@media screen and ( orientation: landscape ) {
 	.u-hidden\@landscape {
 		display: none;
 	}
