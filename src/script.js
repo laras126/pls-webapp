@@ -3,28 +3,18 @@ const initialLanguages = require( '../_data/languages' ).initial_list;
 
 const listenForKeyCodes = ( item, e ) => {
 	if ( 32 === e.keyCode ) {
+		checkForRemainingItems();
 		addItemToBoard( item );
 	}
 
-	// Move Left
+	// Enter
 	if ( item.classList.contains( 'is-onboard' ) ) {
 		const styles = window.getComputedStyle( item );
 		const itemX = styles.getPropertyValue( '--positionX' );
 
 		let currentX = parseInt(itemX);
 		
-		if ( 13 === e.keyCode ) {
-			const remainingItems = inventory.querySelectorAll( '.js-item');
-			
-			if ( 0 < remainingItems.length ) {
-				inventory.querySelectorAll( '.js-item')[0].focus();
-			} else {
-				// TODO: this is where we can add more langyages from JSON file.
-				finalMessage.removeAttribute( 'hidden' );
-			}
-			
-		}
-		
+		// Move Left
 		if( 37 === e.keyCode ) {
 			item.style.setProperty( '--positionX',  getNewX( currentX, 'left' ) );
 		}
@@ -68,43 +58,55 @@ const getNewX = ( currentX, direction ) => {
 };
 
 const updateItemSelectedState = ( item ) => {
-	let selectedString = ' - Selected, spacebar to move to board';
+	let selectedString = ' - Selected';
 	let itemLabel = item.getAttribute( 'aria-label' );
 
 	if ( document.activeElement == item ) {
-			// already selected
-			if ( item.classList.contains( 'is-selected' ) ) {
-				return;
-			}
-		
-			item.classList.add( 'is-selected' );
-			item.setAttribute( 'aria-label', itemLabel +  selectedString );
+		// Already selected
+		// Need to update to account for on board and selected.
+		if ( item.classList.contains( 'is-selected' ) ) {
+			return;
+		}
+	
+		item.classList.add( 'is-selected' );
+		item.setAttribute( 'aria-label', itemLabel +  selectedString );
 	} else {
-			item.classList.remove( 'is-selected' );
-			item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
+		item.classList.remove( 'is-selected' );
+		item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
 	}
 	
 	log( item.getAttribute( 'aria-label' ) );
 };
 
 const updateItemOnBoardState = ( item ) => {
-	const selectedString = ' - Use Left and Right arrows to move item, Enter to submit and go to next item in list';
+	const selectedString = ' - Use Left and Right arrows to move item, Tab to go to next item in list';
 	let itemLabel = item.getAttribute( 'aria-label' );
 
 	if ( document.activeElement == item ) {
-			// already selected
-			if ( item.classList.contains( 'is-onboard' ) ) {
-				return;
-			}
-			
-			item.classList.add( 'is-onboard' );
-			item.setAttribute( 'aria-label', itemLabel +  selectedString );
+		// already selected
+		if ( item.classList.contains( 'is-onboard' ) ) {
+			return;
+		}
+		
+		item.classList.add( 'is-onboard' );
+		item.setAttribute( 'aria-label', itemLabel +  selectedString );
 	} else {
-			item.classList.remove( 'is-onboard' );
-			item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
+		item.classList.remove( 'is-onboard' );
+		item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
 	}
 	
 	log( item.getAttribute( 'aria-label' ) );
+};
+
+const checkForRemainingItems = () => {
+	const remainingItems = inventory.querySelectorAll( '.js-item');
+
+	if ( 0 < remainingItems.length ) {
+		inventory.querySelectorAll( '.js-item')[0].focus();
+	} else {
+		// TODO: this is where we can add more langyages from JSON file.
+		finalMessage.removeAttribute( 'hidden' );
+	}
 };
 
 const log = c => console.log( c );
@@ -120,11 +122,8 @@ const createItemNode = ( name ) => {
 	button.setAttribute( 'aria-label', name );
 	return button;
 };
-// console.log('hi');
 
 window.addEventListener( 'load', () => {
-	
-	console.log('loaded');
 
 	// TODO: this should be done server-side with a templating language
 	initialLanguages.forEach( ( language ) => {
@@ -132,10 +131,9 @@ window.addEventListener( 'load', () => {
 		inventory.prepend( item );
 	});
 
-
-	// Add item listeners
 	const items = document.querySelectorAll( '.js-item' );
-
+	
+	// Add item event listeners
 	items.forEach( (item) => {
 		item.onfocus = () => {	
 			updateItemSelectedState( item );
@@ -147,6 +145,7 @@ window.addEventListener( 'load', () => {
 
 		item.onclick = () => {
 			item.focus();
+			checkForRemainingItems();
 			updateItemSelectedState( item );
 			addItemToBoard( item );
 		}
