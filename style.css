@@ -55,6 +55,10 @@ body {
 	padding-right: 1rem;
 }
 
+.u-padding-a-1 {
+	padding: 1rem;
+}
+
 .u-padding-lr-2 {
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -71,6 +75,22 @@ body {
 
 .u-min-width-500 {
 	min-width: 500px;
+}
+
+.u-background-yellow {
+	background-color: lemonchiffon;
+}
+
+@media ( min-width: 700px ) {
+	.u-hidden\@tablet {
+		display: none;
+	}
+}
+
+@media ( orientation: landscape ) {
+	.u-hidden\@landscape {
+		display: none;
+	}
 }
 
 /* JS */ 
