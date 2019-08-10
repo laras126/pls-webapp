@@ -80,13 +80,21 @@ body {
 }
 
 .js-item {
-	cursor: move;
 	white-space: nowrap;
 	padding: 0.75rem;
 	border: 2px solid black;
 	background-color: white;
 	display: inline-flex;
 	margin: 0.25rem;
+}
+
+.js-slider .js-item {
+	/* Important to override GSAP */
+	cursor: ew-resize !important;
+}
+
+.js-inventory .js-item {
+	cursor: cell;
 }
 
 .js-item:focus {
