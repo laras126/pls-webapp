@@ -13,6 +13,32 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+/* UI */
+
+.c-submit-button {
+	border-radius: 5px;
+	padding: 1rem 1.5rem;
+	background-color: dodgerblue;
+	color: white;
+	font-weight: 700;
+	border: none;
+	font-size: 1.5rem;
+	box-shadow: 2px 2px 2px solid rgba( 0, 0, 0, 0.7 );
+	cursor: pointer;
+	margin-top: 1rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.c-submit-button:hover {
+	background-color: darkslateblue;
+}
+
+.c-submit-button:active {
+	background-color: navy;
+}
+
 /* Algos */
 
 .a-center {
@@ -30,7 +56,9 @@ body {
 	margin: 0 auto;
 }
 
-
+.a-space-form-fields input {
+	margin-top: 1rem;
+}
 
 /* Utilities */
 
@@ -42,8 +70,12 @@ body {
 	text-align: center;
 }
 
-.u-margin-t-40 {
-	margin-top: 40px;
+.u-margin-t-250 {
+	margin-top: 2.5rem;
+}
+
+.u-margin-t-1 {
+	margin-top: 1rem;
 }
 
 .u-margin-tb-0 {
@@ -107,7 +139,7 @@ body {
 }
 
 .js-item {
-	font-size: 0.75rem;
+	font-size: 1rem;
 	white-space: nowrap;
 	padding: 0.75rem;
 	border: 2px solid black;
