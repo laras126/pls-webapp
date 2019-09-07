@@ -153,14 +153,19 @@ window.addEventListener( 'load', () => {
 		}
 	});
 
-	let languageRatingStruct = {
-		name: '',
-		value: ''
-	};
 
 	// Prepare object of results according to the items' position on the slider.
 	document.getElementById( 'submit' ).addEventListener( 'click', () => {
-		let objects = [];
+
+		let languageRatingStruct = {
+			name: '',
+			value: ''
+		};
+
+		let entry = {
+			user: {},
+			data: []
+		};
 
 		const sliderBox = slider.getBoundingClientRect();
 		const sliderX = sliderBox.x.toFixed();
@@ -181,13 +186,22 @@ window.addEventListener( 'load', () => {
 			let rating = Object.assign( {}, languageRatingStruct );
 			rating.name = el.textContent;
 			rating.value = getRatingValueFromPosition( el );
-			objects.push( rating );
+
+			// Add to the entry object that will be saved.
+			entry.data.push( rating );
 		});
 
-		// TODO: prepare object of person information here.
-		
-		// Should be a save to database here.
-		console.log( objects );
+		const age = document.getElementById( 'age' );
+
+		entry.user = {
+			occupation: document.getElementById( 'occupation' ).value,
+			mailPL: document.getElementById( 'mainPL' ).value,
+			gender: document.querySelector('input[name="gender"]:checked').value,
+			age: age.options[age.selectedIndex].value
+		};
+
+		// Should be a saved to something here.
+		log( entry );
 		
 	});
 });

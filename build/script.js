@@ -81,8 +81,7 @@ const updateItemSelectedState = ( item ) => {
 		item.classList.remove( 'is-selected' );
 		item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
 	}
-	
-	log( item.getAttribute( 'aria-label' ) );
+
 };
 
 const updateItemOnBoardState = ( item ) => {
@@ -102,7 +101,6 @@ const updateItemOnBoardState = ( item ) => {
 		item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
 	}
 	
-	log( item.getAttribute( 'aria-label' ) );
 };
 
 const checkForRemainingItems = () => {
@@ -162,6 +160,57 @@ window.addEventListener( 'load', () => {
 		}
 	});
 
+
+	// Prepare object of results according to the items' position on the slider.
+	document.getElementById( 'submit' ).addEventListener( 'click', () => {
+
+		let languageRatingStruct = {
+			name: '',
+			value: ''
+		};
+
+		let entry = {
+			user: {},
+			data: []
+		};
+
+		const sliderBox = slider.getBoundingClientRect();
+		const sliderX = sliderBox.x.toFixed();
+		const sliderWidth = sliderBox.width.toFixed();
+
+		const getItemCenter = ( item ) => {
+			const box = item.getBoundingClientRect();
+			const center = ( box.x + box.width / 2 );
+			
+			return center.toFixed();
+		};
+		
+		const getRatingValueFromPosition = ( item ) => {
+			return ( ( ( getItemCenter( item ) - sliderX ) / sliderWidth ) * 100 ).toFixed();
+		};
+
+		document.querySelectorAll( '.js-item.is-onboard' ).forEach( el => {
+			let rating = Object.assign( {}, languageRatingStruct );
+			rating.name = el.textContent;
+			rating.value = getRatingValueFromPosition( el );
+
+			// Add to the entry object that will be saved.
+			entry.data.push( rating );
+		});
+
+		const age = document.getElementById( 'age' );
+
+		entry.user = {
+			occupation: document.getElementById( 'occupation' ).value,
+			mailPL: document.getElementById( 'mainPL' ).value,
+			gender: document.querySelector('input[name="gender"]:checked').value,
+			age: age.options[age.selectedIndex].value
+		};
+
+		// Should be a saved to something here.
+		log( entry );
+		
+	});
 });
 
 },{"../_data/languages":1}]},{},[2]);
