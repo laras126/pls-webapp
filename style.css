@@ -60,6 +60,14 @@ body {
 	margin-top: 1rem;
 }
 
+.a-fade-to {
+	transition: opacity 0.35s ease;
+}
+
+.a-fade-to-20 {
+	opacity: 0.2;
+}
+
 /* Utilities */
 
 .u-width-100p {
