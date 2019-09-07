@@ -74,8 +74,7 @@ const updateItemSelectedState = ( item ) => {
 		item.classList.remove( 'is-selected' );
 		item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
 	}
-	
-	log( item.getAttribute( 'aria-label' ) );
+
 };
 
 const updateItemOnBoardState = ( item ) => {
@@ -95,7 +94,6 @@ const updateItemOnBoardState = ( item ) => {
 		item.setAttribute( 'aria-label', itemLabel.replace( selectedString, '' ) );
 	}
 	
-	log( item.getAttribute( 'aria-label' ) );
 };
 
 const checkForRemainingItems = () => {
@@ -155,4 +153,41 @@ window.addEventListener( 'load', () => {
 		}
 	});
 
+	let languageRatingStruct = {
+		name: '',
+		value: ''
+	};
+
+	// Prepare object of results according to the items' position on the slider.
+	document.getElementById( 'submit' ).addEventListener( 'click', () => {
+		let objects = [];
+
+		const sliderBox = slider.getBoundingClientRect();
+		const sliderX = sliderBox.x.toFixed();
+		const sliderWidth = sliderBox.width.toFixed();
+
+		const getItemCenter = ( item ) => {
+			const box = item.getBoundingClientRect();
+			const center = ( box.x + box.width / 2 );
+			
+			return center.toFixed();
+		};
+		
+		const getRatingValueFromPosition = ( item ) => {
+			return ( ( ( getItemCenter( item ) - sliderX ) / sliderWidth ) * 100 ).toFixed();
+		};
+
+		document.querySelectorAll( '.js-item.is-onboard' ).forEach( el => {
+			let rating = Object.assign( {}, languageRatingStruct );
+			rating.name = el.textContent;
+			rating.value = getRatingValueFromPosition( el );
+			objects.push( rating );
+		});
+
+		// TODO: prepare object of person information here.
+		
+		// Should be a save to database here.
+		console.log( objects );
+		
+	});
 });
