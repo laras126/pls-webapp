@@ -6,10 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Is it a Programming Language?</title>
 	<link rel="stylesheet" href="./style.css">
-	<script src="./build/script.js" async></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js" async></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js" async></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/utils/Draggable.min.js" async></script>
 </head>
 <body>
 	<p class="u-hidden@tablet u-hidden@landscape u-text-center u-padding-a-1 u-background-yellow u-font-size-16">It looks like you are using a small screen! We recommend rotating your screen to see the full board.</p>
@@ -25,58 +21,85 @@
 
 	<section class="a-wrapper u-padding-tb-2 u-font-size-16">
 		<div class="u-text-center">
-			<h3 class="u-font-size-20">Languages To Rate</h3>
+			<h2 class="u-font-size-20">Languages To Rate</h2>
+			<p>Click to language to add it to the board or, if using the keyboard, press enter when the language is in focus. Use the arrow keys or mouse to move the item left and right.</p>
 		</div>
 		<div class="a-center u-flex-wrap-wrap js-inventory u-font-size-16" id="inventory">
 			<p id="finalMessage" hidden="hidden">No more items to place! But you can add a new one here:</p>
-			<div class="u-margin-t-40 u-width-100p a-center">
+			<div class="u-margin-t-250 u-width-100p a-center">
 				<label for="" class="u-padding-r-1">Add Your Own: </label>
 				<input id="newLanguage" aria-label="Add a new language, enter to place it on the board" type="text">
 			</div>
 		</div>
-		<p class="">Click to language to add it to the board or, if using the keyboard, press enter when the language is in focus.</p>
-		<p>Drag the language left or right, or use the left/right arrows to move the item once it is on the board.</p>
 	</section>
 	
 	<section class="a-wrapper u-padding-tb-2 u-font-size-16">
+
 		<div class="u-text-center">
-			<h3 class="u-font-size-20">Your Info</h3>
+			<h2 class="u-font-size-20">Your Info</h2>
 		</div>
-		<button id="submit">Submit</button>
+
+		<form action="" id="userData">
+						
+			<label for="occupation">Occupation:</label>
+			<input id="occupation" type="text" name="textfield"><br>
+
+			<p><label for="mainPL">I feel I am a </label>
+			<input id="mainPL" type="text" name="textfield"> 
+			programmer most.</p>
+
+			<label for="age">Age:</label>
+			<select id="age" name="select">
+				<option value="16-19">16-19</option>
+				<option value="20-24">20-24</option>
+				<option value="25-29">25-29</option>
+				<option value="30-34">30-34</option>
+				<option value="35-39">35-39</option>
+				<option value="40-44">40-44</option>
+				<option value="45-49">45-49</option>
+				<option value="50-54">50-54</option>
+				<option value="55-59">55-59</option>
+				<option value="60-64">60-64</option>
+				<option value="65-69">65-69</option>
+				<option value="70-74">70-74</option>
+				<option value="75-79">75-79</option>
+				<option value="80-84">80-84</option>
+				<option value="85+ ">85+ </option>
+			</select>
+
+			<fieldset class="a-space-form-fields u-margin-t-1">
+				<legend>To which gender identity do you most identify?</legend>
+
+				<input id="female" type="radio" name="gender" value="female">
+				<label for="female">Female</label><br>
+
+				<input id="male" type="radio" name="gender" value="male">
+				<label for="Male">Male</label><br>
+
+				<input id="transF" type="radio" name="gender" value="transF">
+				<label for="transF">Transgender Female</label><br>
+
+				<input id="transM" type="radio" name="gender" value="transM">
+				<label for="transM">Transgender Male</label><br>
+
+				<input id="variant" type="radio" name="gender" value="variant">
+				<label for="variant">Gender Variant / Non-conforming</label><br>
+
+				<input id="other" type="radio" name="gender" value="other">
+				<label for="other">Not Listed (open field)</label><br>
+
+				<input id="noAns" type="radio" name="gender" value="noAns">
+				<label for="noAns">Prefer Not to Answer</label>
+			</fieldset>
+
+		</form>
+		
+		<button class="c-submit-button" id="submit">Submit</button>
 	</section>
 
-	<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
-	<!-- TODO: Add SDKs for Firebase products that you want to use 
-		https://firebase.google.com/docs/web/setup#config-web-app -->
-
-	<!-- Add Firebase products that you want to use -->
-	<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
-
-	<script>
-		
-		// Your web app's Firebase configuration
-		var firebaseConfig = {
-			apiKey: "AIzaSyDbks-QVEQCH6cnb8Lu-oFYhypW17k9GdI",
-			authDomain: "pls-webapp-4de37.firebaseapp.com",
-			databaseURL: "https://pls-webapp-4de37.firebaseio.com",
-			projectId: "pls-webapp-4de37",
-			storageBucket: "",
-			messagingSenderId: "885311996484",
-			appId: "1:885311996484:web:7746e59263ef205a24f211"
-		};
-
-		// Initialize Firebase
-		firebase.initializeApp(firebaseConfig);
-
-		var database = firebase.database();
-
-		firebase.database().ref( '/databases/test/123' ).set({
-			username: 'lara',
-			email: 'lara@notlaura.com'
-		});
-
-	</script>
-
+	<script src="./build/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/utils/Draggable.min.js"></script>
 </body>
 </html>
