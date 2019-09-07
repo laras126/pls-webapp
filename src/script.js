@@ -112,6 +112,7 @@ const log = c => console.log( c );
 const slider = document.getElementById( 'slider' );
 const inventory = document.getElementById( 'inventory' );
 const finalMessage = document.getElementById( 'finalMessage' );
+const form = document.getElementById( 'form' );
 
 const createItemNode = ( name ) => {
 	const button = document.createElement( 'button' );
@@ -155,7 +156,9 @@ window.addEventListener( 'load', () => {
 
 
 	// Prepare object of results according to the items' position on the slider.
-	document.getElementById( 'submit' ).addEventListener( 'click', () => {
+	document.getElementById( 'submit' ).addEventListener( 'click', ( e ) => {
+
+		e.preventDefault();
 
 		let languageRatingStruct = {
 			name: '',
@@ -200,8 +203,24 @@ window.addEventListener( 'load', () => {
 			age: age.options[age.selectedIndex].value
 		};
 
-		// Should be a saved to something here.
-		log( entry );
-		
+		// Mark as loading
+		form.classList.add( 'a-fade-to-20' );
+
+		// Save to JSBIN
+		let req = new XMLHttpRequest();
+
+		req.onreadystatechange = () => {
+			if (req.readyState == XMLHttpRequest.DONE) {
+				form.classList.remove( 'a-fade-to-20' );
+				form.innerHTML = '<h3 class="u-font-size-20 a-center">Your response has been recorded. Thank you!</h3>';
+			}
+		};
+
+		req.open( 'POST', 'https://api.jsonbin.io/b', true);
+		req.setRequestHeader( 'Content-type', 'application/json' );
+		req.setRequestHeader( 'collection-id', '5d73f0ff2d1fb96463c9faa8' );
+		req.setRequestHeader( 'secret-key', '$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES' );
+		req.send( JSON.stringify( entry ) );
+
 	});
 });
