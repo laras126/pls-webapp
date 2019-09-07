@@ -14,9 +14,10 @@
 <body>
 	<p class="u-hidden@tablet u-hidden@landscape u-text-center u-padding-a-1 u-background-yellow u-font-size-16">It looks like you are using a small screen! We recommend rotating your screen to see the full board.</p>
 	<h1 class="u-text-center u-padding-tb-2 u-font-size-24">Is it a real programming language?</h1>
+
 	<section class="a-center">
 		<p class="u-padding-a-1 u-font-size-24">Not Real</p>
-			<div id="slider" class="js-slider u-min-width-500 a-center">
+			<div id="slider" class="js-slider u-min-width-500 u-width-100p a-center">
 				<div class="js-track"></div>
 			</div>
 		<p class="u-padding-a-1 u-font-size-24">Real</p>
@@ -25,8 +26,6 @@
 	<section class="a-wrapper u-padding-tb-2 u-font-size-16">
 		<div class="u-text-center">
 			<h3 class="u-font-size-20">Languages To Rate</h3>
-			<p class="">Click to language to add it to the board or, if using the keyboard, press enter when the language is in focus.</p>
-			<p>Drag the language left or right, or use the left/right arrows to move the item once it is on the board.</p>
 		</div>
 		<div class="a-center u-flex-wrap-wrap js-inventory u-font-size-16" id="inventory">
 			<p id="finalMessage" hidden="hidden">No more items to place! But you can add a new one here:</p>
@@ -35,6 +34,49 @@
 				<input id="newLanguage" aria-label="Add a new language, enter to place it on the board" type="text">
 			</div>
 		</div>
+		<p class="">Click to language to add it to the board or, if using the keyboard, press enter when the language is in focus.</p>
+		<p>Drag the language left or right, or use the left/right arrows to move the item once it is on the board.</p>
 	</section>
+	
+	<section class="a-wrapper u-padding-tb-2 u-font-size-16">
+		<div class="u-text-center">
+			<h3 class="u-font-size-20">Your Info</h3>
+		</div>
+		<button id="submit">Submit</button>
+	</section>
+
+	<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+	<!-- TODO: Add SDKs for Firebase products that you want to use 
+		https://firebase.google.com/docs/web/setup#config-web-app -->
+
+	<!-- Add Firebase products that you want to use -->
+	<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
+
+	<script>
+		
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyDbks-QVEQCH6cnb8Lu-oFYhypW17k9GdI",
+			authDomain: "pls-webapp-4de37.firebaseapp.com",
+			databaseURL: "https://pls-webapp-4de37.firebaseio.com",
+			projectId: "pls-webapp-4de37",
+			storageBucket: "",
+			messagingSenderId: "885311996484",
+			appId: "1:885311996484:web:7746e59263ef205a24f211"
+		};
+
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+
+		var database = firebase.database();
+
+		firebase.database().ref( '/databases/test/123' ).set({
+			username: 'lara',
+			email: 'lara@notlaura.com'
+		});
+
+	</script>
+
 </body>
 </html>
