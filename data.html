@@ -10,6 +10,22 @@
 
 <body>
 	<script>
+
+		// Request to get all bins from collection
+		// let req = new XMLHttpRequest();
+
+		// req.onreadystatechange = () => {
+		// 	if (req.readyState == XMLHttpRequest.DONE) {
+		// 		console.log(req.responseText);
+		// 	}
+		// };
+
+		// req.open("GET", "https://api.jsonbin.io/e/collection/5d73f0ff2d1fb96463c9faa8/all-bins", true);
+		// req.setRequestHeader("secret-key", "$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES");
+		// req.send();
+
+
+		// Stub this for speed
 		const bins = {
 			"records": [{
 				"id": "5d762549c22e9d0afd295bde"
@@ -37,7 +53,6 @@
 			"success": true
 		};
 
-		
 		bins.records.forEach( ( record ) => {
 			let req = new XMLHttpRequest();
 	
