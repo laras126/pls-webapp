@@ -205,7 +205,7 @@ window.addEventListener( 'load', () => {
 
 		entry.user = {
 			occupation: document.getElementById( 'occupation' ).value,
-			mailPL: document.getElementById( 'mainPL' ).value,
+			mainPL: document.getElementById( 'mainPL' ).value,
 			gender: document.querySelector('input[name="gender"]:checked').value,
 			age: age.options[age.selectedIndex].value
 		};
