@@ -1,8 +1,29 @@
 /*  General */ 
 
+* {
+	box-sizing: border-box;
+}
+
 :root {
 	--positionX: 50;
-	--rotation: -60;
+	--rotation: -75;
+	--p-size: 1.3rem;
+	--main-shadow: 2px 2px 2px rgba(155, 155, 155, 0.5), -2px -2px 2px rgba(155, 155, 155, 0.3);
+	--color-real: Magenta;
+	--color-not-real: navy;
+}
+
+html {
+	font-size: 85%;
+	/* Remove click delay on mobile */
+	touch-action: manipulation;
+}
+
+@media ( min-width: 900px ) {
+	html {
+		font-size: 100%
+	}
+	
 }
 
 * {
@@ -11,24 +32,116 @@
 
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	line-height: 1.4;
+	font-size: var( --p-size );
+	background-color: GhostWhite;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-bottom: 2rem;
 }
 
-/* UI */
+a, a:link, a:visited {
+	color: dodgerblue;
+}
 
-.c-submit-button {
-	border-radius: 5px;
-	padding: 1rem 1.5rem;
+section {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Form */
+
+label,
+legend {
+	font-size: var( --p-size );
+}
+
+input[type="radio"] {
+	padding: 0;
+}
+
+input[type="radio"] + label {
+	font-weight: unset;
+}
+
+input[type="text"],
+button[type="submit"] {
+	border-width: 2px;
+	border-color: rgba(155, 155, 155, 0.3);
+	padding: 0.5rem;
+	font-size: var( --p-size );
+	border-radius: 3px;
+}
+
+input[type="text"]:focus {
+	border-color: Magenta;
+}
+
+button[type="submit"] {
+	cursor: pointer;
 	background-color: dodgerblue;
 	color: white;
 	font-weight: 700;
-	border: none;
-	font-size: 1.5rem;
 	box-shadow: 2px 2px 2px solid rgba( 0, 0, 0, 0.7 );
-	cursor: pointer;
+}
+
+button[type="submit"]:focus {
+	border-color: magenta;
+}
+
+button[type="submit"]:hover {
+	background-color: DarkCyan;
+}
+
+button[type="submit"]:active {
+	background-color: teal;
+}
+
+input[type="text"] {
+	border-color: #999;
+}
+
+select {
+	font-size: var( --p-size );
+	width: 120px;
+	padding: 0.5rem;
+}
+
+fieldset {
+	/* border: none; */
+	/* padding: 0; */
+}
+
+
+/* UI */
+
+.c-spectrum-label {
+	background-color: var( --color-not-real );
+	color: white;
+	text-align: center;
+	font-size: 90%;
+	padding: 0.5rem;
+}
+
+.c-slider + .c-spectrum-label {
+	background-color: var( --color-real );
+}
+
+.c-track {
+	background-image: linear-gradient( to right, var( --color-not-real ), var( --color-real ) );
+	/* border-bottom: 3px solid dodgerblue;
+	border-top: 3px solid dodgerblue; */
+}
+
+.u-background-green {
+	background-color: var( --color-real );
+}
+
+.c-submit-button {
+	border-radius: 5px;
 	margin-top: 1rem;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .c-submit-button:hover {
@@ -52,7 +165,9 @@ body {
 }
 
 .a-wrapper {
-	max-width: 600px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -68,7 +183,25 @@ body {
 	opacity: 0.2;
 }
 
+.a-screen-reader-only {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+
 /* Utilities */
+
+.u-flex {
+	display: flex;
+}
+
+.u-align-items-center {
+	align-items: center;
+}
 
 .u-width-100p {
 	width: 100%;
@@ -91,8 +224,8 @@ body {
 	margin-bottom: 0;
 }
 
-.u-padding-r-1 {
-	padding-right: 1rem;
+.u-margin-r-1 {
+	margin-right: 1rem;
 }
 
 .u-padding-a-1 {
@@ -124,8 +257,16 @@ body {
 	font-size: 1.25rem;
 }
 
-.u-font-size-24 {
-	font-size: 1.5rem;
+.u-font-size-28 {
+	font-size: 1.75rem;
+}
+
+.u-font-size-36 {
+	font-size: 2.25rem;
+}
+
+.u-background-white {
+	background-color: white;
 }
 
 @media screen and ( min-width: 700px ) {
@@ -154,6 +295,7 @@ body {
 	background-color: white;
 	display: inline-flex;
 	margin: 0.25rem;
+	box-shadow: var( --main-shadow );
 }
 
 .js-slider .js-item {
@@ -166,7 +308,7 @@ body {
 }
 
 .js-item:focus {
-	border-color: red;		
+	border-color: magenta;		
 }
 
 .js-slider .js-item {
@@ -183,6 +325,5 @@ body {
 
 .js-track {
 	height: 10px;
-	background-color: grey;
 	width: 100%;
 }

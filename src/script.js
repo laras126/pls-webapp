@@ -1,4 +1,3 @@
-
 const initialLanguages = require( '../_data/languages' ).initial_list;
 
 const listenForKeyCodes = ( item, e ) => {
@@ -154,7 +153,8 @@ const addItemListeners = ( items ) => {
 
 };
 
-window.addEventListener( 'load', () => {
+document.addEventListener( 'DOMContentLoaded', () => {
+
 	// TODO: this should be done server-side with a templating language
 	initialLanguages.forEach( ( language ) => {
 		let item = createItemNode( language );
@@ -220,7 +220,7 @@ window.addEventListener( 'load', () => {
 		req.onreadystatechange = () => {
 			if (req.readyState == XMLHttpRequest.DONE) {
 				form.classList.remove( 'a-fade-to-20' );
-				form.innerHTML = '<h3 class="u-font-size-20 a-center">Your response has been recorded. Thank you!</h3>';
+				form.innerHTML = '<h3 class="u-font-size-28 a-center">Your response has been recorded. Thank you!</h3>';
 			}
 		};
 
@@ -237,6 +237,7 @@ window.addEventListener( 'load', () => {
 		e.preventDefault();
 		
 		addNewLanguage( e.target.querySelector( 'input[type=text]' ).value );
+		e.target.querySelector( 'input[type=text]' ).value = '';
 
 		addItemListeners( document.querySelectorAll( '.js-item' ) );
 	});

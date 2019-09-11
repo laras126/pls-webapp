@@ -9,99 +9,110 @@
 </head>
 <body>
 	<p class="u-hidden@tablet u-hidden@landscape u-text-center u-padding-a-1 u-background-yellow u-font-size-16">It looks like you are using a small screen! We recommend rotating your screen to see the full board.</p>
-	<h1 class="u-text-center u-padding-tb-2 u-font-size-24">Is it a real programming language?</h1>
+
+	<header class="a-wrapper u-text-center">
+		<h1 class="u-padding-tb-2 u-font-size-36">Is it real programming?</h1>
+		<p class="a-paragraph-text">Hi! Welcome to this survey! We are <a href="https://notlaura.com">Lara Schenck</a> and <a href="http://www.felienne.com/">Felienne Hermans</a>, and we are curious what you think are more real programming languages. Place them on the line below by dragging and dropping. You can add as many as you like from the suggested ones, or add your own.</p>
+	</header>
 
 	<section class="a-center">
-		<p class="u-padding-a-1 u-font-size-24">Not Real</p>
-			<div id="slider" class="js-slider u-min-width-500 u-width-100p a-center">
-				<div class="js-track"></div>
-			</div>
-		<p class="u-padding-a-1 u-font-size-24">Real</p>
+		<h2 class="a-screen-reader-only">Languages Slider</h2>
+		<p class="c-spectrum-label">Not Real Programming</p>
+		<div id="slider" class="c-slider js-slider u-width-100p a-center">
+			<div class="c-track js-track"></div>
+		</div>
+		<p class="c-spectrum-label">Real Programming</p>
 	</section>
 
-	<section class="a-wrapper u-padding-tb-2 u-font-size-16">
+	<section class="u-padding-tb-2 u-font-size-16">
+		<h2 class="a-screen-reader-only">Languages Inventory</h2>
 		<div class="u-text-center">
-			<h2 class="u-font-size-20">Languages To Rate</h2>
-			<p>Click to language to add it to the board or, if using the keyboard, press enter when the language is in focus. Use the arrow keys or mouse to move the item left and right.</p>
 			<form id="addLanguage" class="u-width-100p a-center">
-				<label for="newLanguage" class="u-padding-r-1">Add Your Own: </label>
-				<input id="newLanguage" aria-label="Add a new language, enter to place it on the board" type="text">
+				<label for="newLanguage" class="u-margin-r-1">Add Your Own: </label>
+				<input id="newLanguage" aria-label="Add a new language, enter to place it on the board" type="text" placeholder="Language to add" class="u-margin-r-1">
 				<button type="submit" aria-label="Add language">Add</button>
-			</from>
+			</form>
 		</div>
 		<div class="u-margin-t-250 a-center u-flex-wrap-wrap js-inventory u-font-size-16" id="inventory">
-			<p id="finalMessage" hidden="hidden">No more items to place! But you can add a new one here:</p>
-			
+			<p id="finalMessage" hidden="hidden">No more items to place! But you can add a new one using the form above.</p>
 		</div>
 	</section>
 	
 	<section class="a-wrapper u-padding-tb-2 u-font-size-16">
 
-		<form id="form" class="a-fade-to">
+		<form id="form" class="a-fade-to a-space-children-vertical">
 			
-			<div class="u-text-center">
-				<h2 class="u-font-size-20">Your Info</h2>
+			<h2 class="u-font-size-28">Thanks for helping us! We’d like to know a bit more about you too.</h2>
+			
+			<div>
+				<label for="occupation">Occupation:</label>
+				<input placeholder="Front-end Engineer" id="occupation" type="text" name="textfield">
 			</div>
-						
-			<label for="occupation">Occupation:</label>
-			<input id="occupation" type="text" name="textfield"><br>
+			
+			<div>
+				<p><label for="mainPL">I feel I am a 
+				<input id="mainPL" placeholder="JavaScript" type="text" name="textfield"> 
+			programmer most.</label></p>
+			</div>
 
-			<p><label for="mainPL">I feel I am a </label>
-			<input id="mainPL" placeholder="(programming language)" type="text" name="textfield"> 
-			programmer most.</p>
+			<div>
+				<label for="age">Age:</label>
+				<select id="age" name="select">
+					<option value="16-19">16-19</option>
+					<option value="20-24">20-24</option>
+					<option value="25-29">25-29</option>
+					<option value="30-34">30-34</option>
+					<option value="35-39">35-39</option>
+					<option value="40-44">40-44</option>
+					<option value="45-49">45-49</option>
+					<option value="50-54">50-54</option>
+					<option value="55-59">55-59</option>
+					<option value="60-64">60-64</option>
+					<option value="65-69">65-69</option>
+					<option value="70-74">70-74</option>
+					<option value="75-79">75-79</option>
+					<option value="80-84">80-84</option>
+					<option value="85+ ">85+ </option>
+				</select>
+			</div>
+			
+			<div>
+				<fieldset class="a-space-form-fields u-margin-t-1 u-background-white">
+					<legend>To which gender identity do you most identify?</legend>
 
-			<label for="age">Age:</label>
-			<select id="age" name="select">
-				<option value="16-19">16-19</option>
-				<option value="20-24">20-24</option>
-				<option value="25-29">25-29</option>
-				<option value="30-34">30-34</option>
-				<option value="35-39">35-39</option>
-				<option value="40-44">40-44</option>
-				<option value="45-49">45-49</option>
-				<option value="50-54">50-54</option>
-				<option value="55-59">55-59</option>
-				<option value="60-64">60-64</option>
-				<option value="65-69">65-69</option>
-				<option value="70-74">70-74</option>
-				<option value="75-79">75-79</option>
-				<option value="80-84">80-84</option>
-				<option value="85+ ">85+ </option>
-			</select>
+					<input id="female" type="radio" name="gender" value="female">
+					<label for="female">Female</label><br>
 
-			<fieldset class="a-space-form-fields u-margin-t-1">
-				<legend>To which gender identity do you most identify?</legend>
+					<input id="male" type="radio" name="gender" value="male">
+					<label for="male">Male</label><br>
 
-				<input id="female" type="radio" name="gender" value="female">
-				<label for="female">Female</label><br>
+					<input id="transF" type="radio" name="gender" value="transF">
+					<label for="transF">Transgender Female</label><br>
 
-				<input id="male" type="radio" name="gender" value="male">
-				<label for="male">Male</label><br>
+					<input id="transM" type="radio" name="gender" value="transM">
+					<label for="transM">Transgender Male</label><br>
 
-				<input id="transF" type="radio" name="gender" value="transF">
-				<label for="transF">Transgender Female</label><br>
+					<input id="variant" type="radio" name="gender" value="variant">
+					<label for="variant">Gender Variant / Non-conforming</label><br>
 
-				<input id="transM" type="radio" name="gender" value="transM">
-				<label for="transM">Transgender Male</label><br>
+					<input id="other" type="radio" name="gender" value="other">
+					<label for="other">Not Listed</label><br>
 
-				<input id="variant" type="radio" name="gender" value="variant">
-				<label for="variant">Gender Variant / Non-conforming</label><br>
+					<input id="noAns" type="radio" name="gender" value="noAns">
+					<label for="noAns">Prefer Not to Answer</label>
+				</fieldset>
+			</div>
 
-				<input id="other" type="radio" name="gender" value="other">
-				<label for="other">Not Listed (open field)</label><br>
-
-				<input id="noAns" type="radio" name="gender" value="noAns">
-				<label for="noAns">Prefer Not to Answer</label>
-			</fieldset>
-
-			<button class="c-submit-button" type="submit" id="submit">Submit</button>
+			<div>
+				<button class="c-submit-button u-font-size-28" type="submit" id="submit">Submit Survey</button>
+			</div>
 		</form>
 		
 	</section>
-
-	<script src="./build/script.js"></script>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/utils/Draggable.min.js"></script>
+	<script src="./build/script.js"></script>
 </body>
 </html>
