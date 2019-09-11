@@ -122,16 +122,14 @@ const createItemNode = ( name ) => {
 	return button;
 };
 
-window.addEventListener( 'load', () => {
+const addNewLanguage = ( value ) => {
+	const newItem = createItemNode( value );
 
-	// TODO: this should be done server-side with a templating language
-	initialLanguages.forEach( ( language ) => {
-		let item = createItemNode( language );
-		inventory.prepend( item );
-	});
+	addItemToBoard( newItem );
+};
 
-	const items = document.querySelectorAll( '.js-item' );
-	
+const addItemListeners = ( items ) => {
+
 	// Add item event listeners
 	items.forEach( (item) => {
 		item.onfocus = () => {	
@@ -154,6 +152,16 @@ window.addEventListener( 'load', () => {
 		}
 	});
 
+};
+
+window.addEventListener( 'load', () => {
+	// TODO: this should be done server-side with a templating language
+	initialLanguages.forEach( ( language ) => {
+		let item = createItemNode( language );
+		inventory.prepend( item );
+	});
+	
+	addItemListeners( document.querySelectorAll( '.js-item' ) );
 
 	// Prepare object of results according to the items' position on the slider.
 	document.getElementById( 'submit' ).addEventListener( 'click', ( e ) => {
@@ -222,5 +230,14 @@ window.addEventListener( 'load', () => {
 		req.setRequestHeader( 'secret-key', '$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES' );
 		req.send( JSON.stringify( entry ) );
 
+	});
+
+	document.getElementById( 'addLanguage' ).addEventListener( 'submit', ( e ) => {
+		console.log('submitted lang');
+		e.preventDefault();
+		
+		addNewLanguage( e.target.querySelector( 'input[type=text]' ).value );
+
+		addItemListeners( document.querySelectorAll( '.js-item' ) );
 	});
 });
