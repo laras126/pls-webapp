@@ -23,13 +23,15 @@
 		<div class="u-text-center">
 			<h2 class="u-font-size-20">Languages To Rate</h2>
 			<p>Click to language to add it to the board or, if using the keyboard, press enter when the language is in focus. Use the arrow keys or mouse to move the item left and right.</p>
-		</div>
-		<div class="a-center u-flex-wrap-wrap js-inventory u-font-size-16" id="inventory">
-			<p id="finalMessage" hidden="hidden">No more items to place! But you can add a new one here:</p>
-			<div class="u-margin-t-250 u-width-100p a-center">
-				<label for="" class="u-padding-r-1">Add Your Own: </label>
+			<form id="addLanguage" class="u-width-100p a-center">
+				<label for="newLanguage" class="u-padding-r-1">Add Your Own: </label>
 				<input id="newLanguage" aria-label="Add a new language, enter to place it on the board" type="text">
-			</div>
+				<button type="submit" aria-label="Add language">Add</button>
+			</from>
+		</div>
+		<div class="u-margin-t-250 a-center u-flex-wrap-wrap js-inventory u-font-size-16" id="inventory">
+			<p id="finalMessage" hidden="hidden">No more items to place! But you can add a new one here:</p>
+			
 		</div>
 	</section>
 	
