@@ -75,7 +75,8 @@ textarea {
 	border-radius: 3px;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+textarea:focus {
 	border-color: Magenta;
 }
 
@@ -146,6 +147,22 @@ textarea {
 	background-color: navy;
 }
 
+.c-intro-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+@media ( min-width: 600px ) {
+	.c-intro-content {
+		display: grid;
+		grid-template-columns: minmax( auto, 200px ) 1fr;
+		grid-gap: 1.5rem;
+		text-align: left;
+	}
+}
+
 /* Algos */
 
 .a-center {
@@ -186,11 +203,11 @@ textarea {
 	overflow:hidden;
 }
 
-.a-clearfix {
+/* .a-clearfix {
 	content: "";
 	display: table;
 	clear: both;
-}
+} */
 
 
 /* Utilities */
@@ -199,9 +216,9 @@ textarea {
 	display: flex;
 }
 
-.u-float-left { 
+/* .u-float-left { 
 	float: left;
-}
+} */
 
 .u-align-items-center {
 	align-items: center;
