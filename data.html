@@ -11,64 +11,63 @@
 <body>
 	<script>
 
+		const getAllData = ( bins ) => {
+			const binRecords = JSON.parse( bins ).records;
+			
+			binRecords.forEach( ( record ) => {
+				let req = new XMLHttpRequest();
+		
+				req.onreadystatechange = () => {
+					if (req.readyState == XMLHttpRequest.DONE) {
+						console.log(req.responseText);
+					}
+				};
+		
+				req.open( 'GET', 'https://api.jsonbin.io/b/' + record.id, true);
+				req.setRequestHeader( 'Content-type', 'application/json' );
+				req.setRequestHeader( 'secret-key', '$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES' );
+				req.send();
+			});
+		}
+
+		const deleteAllData = ( bins ) => {
+			const binRecords = JSON.parse( bins ).records;
+			
+			binRecords.forEach( ( record ) => {
+				let req = new XMLHttpRequest();
+		
+				req.onreadystatechange = () => {
+					if (req.readyState == XMLHttpRequest.DONE) {
+						console.log(req.responseText);
+					}
+				};
+		
+				req.open( 'DELETE', 'https://api.jsonbin.io/b/' + record.id, true);
+				req.setRequestHeader( 'secret-key', '$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES' );
+				req.send();
+			});
+		}
+
 		// Request to get all bins from collection
-		// let req = new XMLHttpRequest();
-
-		// req.onreadystatechange = () => {
-		// 	if (req.readyState == XMLHttpRequest.DONE) {
-		// 		console.log(req.responseText);
-		// 	}
-		// };
-
-		// req.open("GET", "https://api.jsonbin.io/e/collection/5d73f0ff2d1fb96463c9faa8/all-bins", true);
-		// req.setRequestHeader("secret-key", "$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES");
-		// req.send();
-
-
-		// Stub this for speed
-		const bins = {
-			"records": [{
-				"id": "5d762549c22e9d0afd295bde"
-			}, {
-				"id": "5d762227c22e9d0afd2957b4"
-			}, {
-				"id": "5d760c9eb6d0e614dd18375a"
-			}, {
-				"id": "5d73f772b6d0e614dd15c0c4"
-			}, {
-				"id": "5d73f5c3b6d0e614dd15bf0d"
-			}, {
-				"id": "5d73f58fb6d0e614dd15bee1"
-			}, {
-				"id": "5d73f578c22e9d0afd26c246"
-			}, {
-				"id": "5d73f52c1571e50f9e6b6e31"
-			}, {
-				"id": "5d73f4ebc22e9d0afd26c1c8"
-			}, {
-				"id": "5d73f2cc2d1fb96463c9fc86"
-			}, {
-				"id": "5d73f27ab6d0e614dd15bbe1"
-			}],
-			"success": true
-		};
-
-		bins.records.forEach( ( record ) => {
+		const getAllBinIds = ( done ) => {
 			let req = new XMLHttpRequest();
-	
+
 			req.onreadystatechange = () => {
 				if (req.readyState == XMLHttpRequest.DONE) {
-					console.log(req.responseText);
+					done( req.responseText );
 				}
 			};
-	
-			req.open( 'GET', 'https://api.jsonbin.io/b/' + record.id, true);
-			req.setRequestHeader( 'Content-type', 'application/json' );
-			req.setRequestHeader( 'secret-key', '$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES' );
-			req.send();
-		});
 
+			req.open("GET", "https://api.jsonbin.io/e/collection/5d73f0ff2d1fb96463c9faa8/all-bins", true);
+			req.setRequestHeader("secret-key", "$2a$10$i4oSJqC3L35lA04tt774s.VK4ZLs43L9NvsLzmblXoeHu7lUPG6ES");
+			req.send();
+		};
+
+
+		getAllBinIds( getAllData );
 		
+		// getAllBinIds( deleteAllData );
+
 	</script>
 
 </body>
