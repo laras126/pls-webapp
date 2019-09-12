@@ -207,6 +207,7 @@ document.addEventListener( 'DOMContentLoaded', () => {
 		entry.user = {
 			occupation: document.getElementById( 'occupation' ).value,
 			mainPL: document.getElementById( 'mainPL' ).value,
+			openText: document.getElementById( 'openText' ).value,
 			gender: document.querySelector('input[name="gender"]:checked').value,
 			age: age.options[age.selectedIndex].value
 		};
@@ -217,10 +218,16 @@ document.addEventListener( 'DOMContentLoaded', () => {
 		// Save to JSBIN
 		let req = new XMLHttpRequest();
 
+		const successTemplate = `<div>
+			<h3 class="u-font-size-28 a-center">Your response has been recorded. Thank you!</h3>
+			<div class="u-padding-tb-2 u-flex a-center">
+				<a class="c-button" href="https://twitter.com/intent/tweet?text=Is%20C%20more%20of%20a%20programming%20language%20than%20Java?%20And%20what%20about%20Python?%20Enter%20your%20opinion%20in%20this%20online%20survey%20by%20@laras126%20and%20@felienne">Share our survey on Twitter!</a>
+			</div>`;
+
 		req.onreadystatechange = () => {
 			if (req.readyState == XMLHttpRequest.DONE) {
 				form.classList.remove( 'a-fade-to-20' );
-				form.innerHTML = '<h3 class="u-font-size-28 a-center">Your response has been recorded. Thank you!</h3>';
+				form.innerHTML = successTemplate;
 			}
 		};
 
@@ -233,7 +240,6 @@ document.addEventListener( 'DOMContentLoaded', () => {
 	});
 
 	document.getElementById( 'addLanguage' ).addEventListener( 'submit', ( e ) => {
-		console.log('submitted lang');
 		e.preventDefault();
 		
 		addNewLanguage( e.target.querySelector( 'input[type=text]' ).value );
