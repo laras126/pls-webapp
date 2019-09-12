@@ -203,8 +203,10 @@ document.addEventListener( 'DOMContentLoaded', () => {
 		});
 
 		const age = document.getElementById( 'age' );
+		const submissionTimestamp = new Date();
 
 		entry.user = {
+			time: submissionTimestamp,
 			occupation: document.getElementById( 'occupation' ).value,
 			mainPL: document.getElementById( 'mainPL' ).value,
 			openText: document.getElementById( 'openText' ).value,
