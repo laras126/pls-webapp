@@ -4,16 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Is it a Programming Language?</title>
+	<title>Ranking Programming Languages Survey</title>
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<p class="u-hidden@tablet u-hidden@landscape u-text-center u-padding-a-1 u-background-yellow u-font-size-16">It looks like you are using a small screen! We recommend rotating your screen to see the full board.</p>
+	<div class="c-screen-notice u-hidden@tablet u-hidden@landscape u-text-center u-padding-a-1">
+		<p class="u-background-yellow u-font-size-24 u-padding-a-1">It looks like you are using a small screen! <strong>Please rotate your device to landscape to see the full board.</strong></p>
+		<div class="c-screen-notice__icon">
+			<svg viewBox="0 0 488.631 488.631" xmlns="http://www.w3.org/2000/svg" fill="#777"><path d="m443.762 251.057h-161.456v34.625l161.592.072-.079 168.314s-.016 0-.057 0l-161.464-.064c-.006 12.669-3.686 24.393-9.667 34.626h171.131c19.138 0 34.699-15.561 34.699-34.697v-168.179c0-19.12-15.561-34.697-34.699-34.697z"/><path d="m213.053 100.678h-168.186c-19.128 0-34.697 15.569-34.697 34.697v318.558c0 19.136 15.569 34.697 34.697 34.697h80.338 87.848c19.122 0 34.691-15.561 34.691-34.697v-318.558c0-19.128-15.569-34.697-34.691-34.697zm-168.186 34.554 168.314.143-.072 283.972h-168.361zm65.766 317.785c0-10.113 8.202-18.316 18.308-18.316 10.146 0 18.349 8.202 18.349 18.316 0 10.122-8.202 18.341-18.349 18.341-10.106-.001-18.308-8.219-18.308-18.341z"/><path d="m361.752 128.511h-23.054c-1.673 0-3.171 1.003-3.815 2.558-.629 1.528-.279 3.312.899 4.483l40.448 40.455c1.616 1.602 4.221 1.602 5.837 0l40.448-40.455c1.171-1.171 1.53-2.955.9-4.483-.638-1.555-2.143-2.558-3.815-2.558h-23.293c-1.306-71.068-59.434-128.511-130.804-128.511-9.541 0-17.273 7.732-17.273 17.273 0 9.55 7.732 17.29 17.273 17.29 52.322 0 94.951 41.929 96.249 93.948z"/></svg>
+		</div>
+	</div>
 
 	<header class="a-wrapper">
 		<h1 class="u-padding-tb-2 u-margin-tb-0 u-font-size-36 u-text-center">How do you see these programming languages?</h1>
-		<div class="c-intro-content">
-			<img src="./headshot-rotated.jpg" alt="picture of Lara and Felienne"/>
+		<div class="c-intro-content u-padding-b-1">
+			<div>
+				<img class="u-width-100p" src="./headshot-rotated.jpg" alt="picture of Lara and Felienne"/>
+			</div>
 			<div>
 				<p class="a-paragraph-text">Hi! We are <a href="https://notlaura.com">Lara Schenck</a> and <a href="http://www.felienne.com/">Felienne Hermans</a>, and we are curious how you see programming languages.</p>
 				<p class="a-paragraph-text">Click any language (or add your own) and then drag them to where you think they fall on the spectrum. Place whichever languages you like, you don't need to do all of them.</p>
@@ -54,7 +61,7 @@
 
 		<form id="form" class="a-fade-to a-space-children-vertical">
 			
-			<h2 class="u-font-size-28">Thanks for helping us! We’d like to know a bit more about you too.</h2>
+			<h2 class="u-font-size-28">Thanks for helping us! We’d like to know a bit more about you, too.</h2>
 			
 			<div>
 				<label for="occupation">Occupation:</label>
@@ -118,12 +125,13 @@
 			<div>
 				<button class="c-submit-button u-font-size-28" type="submit" id="submit">Submit Survey</button>
 			</div>
-			<div>
-			   	<a href = "https://twitter.com/intent/tweet?text=Is%20C%20more%20of%20a%20programming%20language%20than%20Java?%20And%20what%20about%20Python?%20Enter%20your%20opinion%20in%20this%20online%20survey%20by%20@laras126%20and%20@felienne">Tweet this!</a>
-			</div>
 		</form>
 		
 	</section>
+
+	<footer class="c-colophon">
+		<div>Screen rotation icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+	</footer>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
