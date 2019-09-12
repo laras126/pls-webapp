@@ -66,7 +66,8 @@ input[type="radio"] + label {
 }
 
 input[type="text"],
-button[type="submit"] {
+button[type="submit"], 
+textarea {
 	border-width: 2px;
 	border-color: rgba(155, 155, 155, 0.3);
 	padding: 0.5rem;
@@ -108,9 +109,8 @@ select {
 	padding: 0.5rem;
 }
 
-fieldset {
-	/* border: none; */
-	/* padding: 0; */
+textarea {
+
 }
 
 
@@ -130,12 +130,6 @@ fieldset {
 
 .c-track {
 	background-image: linear-gradient( to right, var( --color-not-real ), var( --color-real ) );
-	/* border-bottom: 3px solid dodgerblue;
-	border-top: 3px solid dodgerblue; */
-}
-
-.u-background-green {
-	background-color: var( --color-real );
 }
 
 .c-submit-button {
@@ -192,11 +186,21 @@ fieldset {
 	overflow:hidden;
 }
 
+.a-clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 
 /* Utilities */
 
 .u-flex {
 	display: flex;
+}
+
+.u-float-left { 
+	float: left;
 }
 
 .u-align-items-center {
