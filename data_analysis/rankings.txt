@@ -1,0 +1,3818 @@
+name,rank,gender
+Ruby,97,variant
+Java,97,variant
+JSON,50,variant
+R,97,variant
+Swift,97,variant
+C++,97,variant
+MATLAB,96,variant
+Scratch,97,variant
+XML,50,variant
+SQL,97,variant
+Python,97,variant
+Delphi/Object Pascal,95,variant
+Visual Basic,96,variant
+PHP,97,variant
+Perl,97,variant
+Go,97,variant
+CSS,97,variant
+HTML,97,variant
+Assembly language,95,variant
+Excel,97,variant
+Objective-C,96,variant
+C#,97,variant
+C,97,variant
+JavaScript,96,variant
+Groovy,97,variant
+Visual Basic .NET,96,variant
+Clip Studio Paint?,30,variant
+Groovy,97,male
+Visual Basic,97,male
+C++,97,male
+R,98,male
+Java,97,male
+Assembly language,96,male
+Delphi/Object Pascal,96,male
+Swift,97,male
+CSS,34,male
+XML,3,male
+C#,97,male
+Ruby,97,male
+PHP,97,male
+JavaScript,97,male
+Visual Basic .NET,96,male
+C,98,male
+Go,97,male
+Objective-C,97,male
+Python,97,male
+Perl,97,male
+MATLAB,97,male
+Scratch,97,male
+JSON,3,male
+HTML,34,male
+Excel,82,male
+SQL,50,male
+Visual Basic,59,male
+Excel,11,male
+Go,94,male
+Python,70,male
+C#,83,male
+Assembly language,91,male
+CSS,6,male
+SQL,25,male
+PHP,72,male
+Java,82,male
+Ruby,71,male
+Perl,72,male
+C,95,male
+Visual Basic .NET,65,male
+R,39,male
+XML,6,male
+C++,94,male
+Groovy,73,male
+JSON,6,male
+HTML,7,male
+JavaScript,62,male
+Python,97,male
+Delphi/Object Pascal,96,male
+Visual Basic,97,male
+Groovy,97,male
+Visual Basic .NET,96,male
+Go,97,male
+PHP,97,male
+C,97,male
+Assembly language,96,male
+JavaScript,97,male
+Java,97,male
+SQL,97,male
+C++,97,male
+C#,97,male
+Perl,97,male
+Objective-C,97,male
+Scratch,97,male
+Swift,97,male
+R,98,male
+Ruby,97,male
+XML,3,male
+JSON,3,male
+CSS,35,male
+HTML,18,male
+SQL,33,male
+Excel,57,male
+HTML,48,male
+Excel,23,male
+SQL,36,male
+PHP,91,male
+CSS,62,male
+JavaScript,92,male
+JSON,10,male
+Visual Basic,79,male
+XML,8,male
+Java,48,male
+Excel,20,male
+C,84,male
+JSON,6,male
+CSS,12,male
+Visual Basic .NET,28,male
+Assembly language,92,male
+PHP,56,male
+Python,63,male
+Perl,69,male
+C++,76,male
+Assembly language,95,male
+SQL,61,male
+Go,84,male
+C,95,male
+JSON,20,male
+CSS,44,male
+Excel,27,male
+C++,78,male
+C#,81,male
+PHP,65,male
+XML,22,male
+Perl,73,male
+Python,69,male
+Ruby,68,male
+HTML,41,male
+Scratch,47,male
+JavaScript,67,male
+JSON,3,male
+Python,87,male
+SQL,38,male
+PHP,73,male
+Elm,63,male
+XML,14,male
+JavaScript,82,male
+haskell,81,male
+sed,95,male
+perl,50,male
+bash,88,male
+Python,97,male
+lisp,79,male
+Assembly language,96,male
+Perl,73,male
+HTML,22,male
+JSON,23,male
+XML,25,male
+CSS,27,male
+JavaScript,87,male
+C++,84,male
+Excel,49,male
+prolog,51,male
+SQL,53,male
+C,78,male
+Assembly language,4,male
+HTML,3,male
+JSON,3,male
+JavaScript,97,male
+C#,97,male
+C++,97,male
+Ruby,97,male
+Visual Basic,96,male
+Groovy,97,male
+SQL,97,male
+Objective-C,96,male
+Excel,97,male
+Delphi/Object Pascal,96,male
+Java,97,male
+R,97,male
+Perl,97,male
+Python,97,male
+Visual Basic .NET,96,male
+Go,97,male
+CSS,97,male
+C,97,male
+PHP,97,male
+Swift,97,male
+Scratch,97,male
+Assembly language,96,male
+XML,3,male
+MATLAB,75,male
+Objective-C,65,male
+C#,60,male
+Visual Basic .NET,32,male
+R,49,male
+HTML,7,male
+Java,71,male
+Assembly language,96,male
+XML,13,male
+CSS,18,male
+JSON,25,male
+Swift,76,male
+C++,80,male
+PHP,56,male
+Python,44,male
+JavaScript,53,male
+SQL,50,male
+C,91,male
+Assembly language,5,male
+CSS,69,male
+C#,21,male
+Java,21,male
+Ruby,79,male
+C++,13,male
+Go,50,male
+JavaScript,63,male
+C,42,male
+Elixir,97,male
+Clojure,97,male
+Java,78,male
+C++,83,male
+C,94,male
+Python,63,male
+PHP,52,male
+Ruby,64,male
+JSON,28,male
+Excel,35,male
+MATLAB,44,male
+JavaScript,55,male
+Rust,86,male
+Java,87,male
+Python,83,male
+JavaScript,78,male
+Go,80,male
+SQL,50,male
+Assembly language,96,male
+C++,94,male
+HTML,63,male
+C#,89,male
+C,90,male
+CSS,35,male
+Excel,14,male
+CSS,95,male
+Java,95,male
+C,96,male
+Groovy,95,male
+Python,95,male
+XML,95,male
+R,96,male
+C#,95,male
+C++,95,male
+Objective-C,94,male
+Visual Basic,94,male
+JSON,95,male
+HTML,95,male
+Visual Basic .NET,93,male
+MATLAB,95,male
+JavaScript,94,male
+Go,95,male
+Scratch,95,male
+Excel,95,male
+PHP,95,male
+Swift,95,male
+Ruby,95,male
+SQL,95,male
+Assembly language,93,male
+Perl,95,male
+Delphi/Object Pascal,93,male
+HTML,14,female
+Scratch,38,female
+CSS,28,female
+Python,71,female
+C++,80,female
+C,92,female
+JavaScript,69,female
+JSON,8,female
+JavaScript,78,male
+PHP,71,male
+Ruby,61,male
+CSS,40,male
+HTML,49,male
+Python,87,male
+Ruby,48,male
+Assembly language,93,male
+JavaScript,30,male
+HTML,5,male
+PHP,32,male
+Python,52,male
+C#,71,male
+CSS,15,male
+XML,12,male
+C,82,male
+Visual Basic .NET,42,male
+SQL,25,male
+Java,75,noAns
+HTML,18,noAns
+XML,28,noAns
+JSON,28,noAns
+R,75,noAns
+SQL,19,noAns
+Python,76,noAns
+MATLAB,76,noAns
+Groovy,76,noAns
+Visual Basic .NET,75,noAns
+R,38,female
+C,61,female
+JavaScript,46,female
+Python,43,female
+Assembly language,66,female
+Java,59,female
+HTML,23,female
+JSON,24,female
+SQL,53,female
+Excel,25,female
+Scratch,26,female
+Visual Basic .NET,41,female
+Java,97,male
+Excel,38,male
+Ruby,78,male
+HTML,44,male
+C,97,male
+Go,97,male
+Swift,97,male
+SQL,53,male
+Scratch,59,male
+Python,77,male
+Perl,77,male
+C#,97,male
+CSS,49,male
+JavaScript,77,male
+Assembly language,92,male
+Excel,6,male
+Visual Basic,41,male
+JavaScript,59,male
+SQL,34,male
+C,87,male
+C++,82,male
+Python,49,male
+C#,72,male
+JSON,6,male
+PHP,84,male
+HTML,20,male
+XML,6,male
+Excel,51,male
+SQL,51,male
+CSS,34,male
+MATLAB,51,male
+R,51,male
+Visual Basic,64,male
+Scratch,70,male
+C#,73,male
+Objective-C,75,male
+Visual Basic .NET,80,male
+Swift,74,male
+Perl,88,male
+Assembly language,69,male
+Go,86,male
+Python,89,male
+Ruby,86,male
+Groovy,88,male
+Delphi/Object Pascal,80,male
+C++,90,male
+C,91,male
+JavaScript,74,male
+Java,51,male
+Haskell,97,male
+Objective-C,84,male
+SQL,78,male
+JavaScript,37,male
+PHP,22,male
+JSON,4,male
+Unison,93,male
+CSS,64,male
+Assembly language,8,male
+Elm,73,male
+C,30,male
+HTML,68,male
+Scratch,55,male
+Excel,59,male
+TypeScript,44,male
+CSS,6,male
+XML,12,male
+HTML,18,male
+Assembly language,92,male
+FORTRAN,70,male
+JSON,15,male
+Excel,51,male
+Visual Basic .NET,51,male
+JavaScript,51,male
+R,51,male
+C,70,male
+Ruby,51,male
+SQL,51,male
+Groovy,51,male
+Delphi/Object Pascal,51,male
+C++,68,male
+Perl,51,male
+PHP,51,male
+Scratch,51,male
+Swift,51,male
+MATLAB,51,male
+Go,51,male
+Java,51,male
+Objective-C,51,male
+Python,51,male
+C#,51,male
+Visual Basic,51,male
+C#,57,female
+Java,45,female
+CSS,50,female
+HTML,22,female
+XML,3,female
+Elixir,84,female
+C,98,female
+JavaScript,74,female
+Rust,97,female
+SQL,63,female
+CSS,3,male
+HTML,3,male
+XML,3,male
+PHP,97,male
+Assembly language,96,male
+Groovy,97,male
+JavaScript,97,male
+JSON,3,male
+Visual Basic .NET,96,male
+Swift,97,male
+Go,97,male
+Delphi/Object Pascal,96,male
+Visual Basic,97,male
+Perl,97,male
+Python,97,male
+Ruby,97,male
+Java,97,male
+C,98,male
+Objective-C,97,male
+C#,97,male
+C++,97,male
+Excel,33,male
+SQL,26,male
+C,95,male
+C++,94,male
+HTML,6,male
+C#,95,male
+CSS,6,male
+JSON,6,male
+Assembly language,92,male
+Java,79,male
+JavaScript,69,male
+XML,6,male
+Python,68,male
+SQL,18,male
+PHP,57,male
+Visual Basic,81,male
+Visual Basic .NET,90,male
+Excel,6,male
+Delphi/Object Pascal,78,male
+Perl,69,male
+R,28,male
+MATLAB,31,male
+TrannyScript,70,variant
+CSS,96,male
+CSS,31,male
+HTML,14,male
+JavaScript,92,male
+Excel,50,male
+C++,94,male
+Python,93,male
+Ruby,94,male
+C,94,male
+Objective-C,92,male
+Scratch,60,male
+Perl,94,male
+Swift,93,male
+MATLAB,70,male
+R,70,male
+PHP,94,male
+SQL,81,male
+Assembly language,91,male
+XML,20,male
+Visual Basic .NET,91,male
+Visual Basic,92,male
+Delphi/Object Pascal,90,male
+Go,94,male
+C#,94,male
+Java,94,male
+Groovy,93,male
+JSON,17,male
+PHP,6,male
+Haskell,94,male
+C++,94,male
+JavaScript,66,male
+Go,66,male
+TypeScript,78,male
+Elm,86,male
+Reason,94,male
+Ocaml,94,male
+PureScript,93,male
+erlang,79,male
+Python,93,male
+JavaScript,22,male
+Assembly language,86,male
+PHP,31,male
+SQL,18,male
+Perl,73,male
+Java,63,male
+Scratch,37,male
+HTML,8,male
+Visual Basic .NET,43,male
+C++,77,male
+Objective-C,60,male
+C,61,male
+Python,50,male
+Elm,97,male
+JSON,3,male
+XML,3,male
+CSS,11,male
+HTML,7,male
+Go,75,male
+C++,80,male
+C,85,male
+JavaScript,21,male
+PHP,21,male
+Java,71,male
+Python,43,male
+Ruby,40,male
+Perl,42,male
+C#,50,male
+SQL,29,male
+Assembly language,86,male
+JSON,20,male
+HTML,71,male
+PHP,78,male
+JavaScript,78,male
+CSS,79,male
+Ruby,81,male
+C++,93,female
+Assembly language,96,female
+C,94,female
+JSON,61,female
+R,53,female
+PHP,64,female
+Visual Basic,81,female
+JavaScript,69,female
+Swift,81,female
+C#,82,female
+Python,75,female
+Perl,28,female
+Scratch,40,female
+Excel,3,female
+Visual Basic .NET,81,female
+Delphi/Object Pascal,70,female
+Objective-C,93,female
+XML,9,female
+HTML,11,female
+CSS,12,female
+Ruby,29,female
+SQL,62,female
+Java,94,female
+MATLAB,76,female
+Go,75,female
+HTML,6,transF
+CSS,15,transF
+JavaScript,34,transF
+Ruby,54,transF
+C#,84,transF
+Java,69,transF
+C++,76,transF
+Swift,48,transF
+PHP,41,transF
+Visual Basic,25,transF
+Objective-C,63,transF
+Assembly language,92,transF
+JavaScript,69,male
+Go,78,male
+Clojure,47,male
+Elixir,50,male
+Erlang,43,male
+HTML,66,male
+CSS,64,male
+Java,33,male
+C++,75,male
+SQL,73,male
+Objective-C,56,male
+Swift,58,male
+Python,53,male
+Dart,10,male
+Scheme,29,male
+Python,93,male
+C,15,male
+JSON,81,male
+Elixir,48,male
+Erlang,30,male
+Python,81,male
+C,81,male
+PHP,81,male
+Swift,81,male
+Objective-C,80,male
+Java,81,male
+JavaScript,80,male
+Perl,80,male
+Ruby,80,male
+Go,80,male
+C#,80,male
+Assembly language,92,male
+SQL,69,male
+CSS,64,male
+C++,81,male
+JSON,36,male
+HTML,64,male
+XML,36,male
+XML,15,male
+Excel,6,male
+HTML,24,male
+CSS,24,male
+JSON,15,male
+Scratch,33,male
+MATLAB,53,male
+SQL,46,male
+Assembly language,92,male
+PHP,62,male
+C#,71,male
+Objective-C,67,male
+Swift,67,male
+Visual Basic,56,male
+Python,61,male
+Perl,66,male
+Go,66,male
+Visual Basic .NET,52,male
+JavaScript,58,male
+Groovy,67,male
+Java,66,male
+Ruby,66,male
+R,54,male
+C++,77,male
+C,86,male
+Delphi/Object Pascal,63,male
+JSON,14,male
+Visual Basic,41,male
+Java,76,male
+Ruby,74,male
+C,90,male
+C++,95,male
+Assembly language,92,male
+Scratch,28,male
+SQL,83,male
+Python,93,noAns
+PHP,8,noAns
+Java,12,noAns
+Perl,3,noAns
+JavaScript,46,noAns
+C,68,noAns
+C++,20,noAns
+SQL,52,noAns
+Rust,79,noAns
+Elm,97,noAns
+Kotlin,91,male
+Java,69,male
+C,28,male
+C++,42,male
+Assembly language,9,male
+JavaScript,18,male
+Elm,80,male
+C,94,female
+C++,88,female
+Rust,91,female
+C#,89,female
+Python,69,female
+Go,77,female
+Java,75,female
+R,56,female
+XML,15,female
+HTML,15,female
+CSS,13,female
+JSON,13,female
+Excel,51,female
+PHP,33,female
+Ruby,68,female
+SQL,62,female
+JavaScript,67,female
+MATLAB,57,female
+HTML,12,male
+CSS,21,male
+C#,82,male
+SQL,30,male
+Python,86,male
+JavaScript,94,male
+C++,75,male
+C,70,male
+Java,80,male
+PHP,43,male
+Assembly language,51,male
+Julia,94,male
+Python,81,male
+C++,29,male
+CSS,12,male
+Scratch,21,male
+SQL,36,male
+C,98,male
+Python,69,male
+Swift,69,male
+PHP,69,male
+Go,97,male
+C++,97,male
+Java,97,male
+HTML,50,male
+XML,50,male
+JSON,50,male
+Assembly language,84,male
+JavaScript,90,male
+JSON,18,male
+Assembly language,89,male
+Excel,61,male
+XML,22,male
+Python,32,male
+Swift,73,male
+Java,69,male
+Perl,41,male
+C,76,male
+R,28,male
+SQL,51,male
+Assembly language,11,male
+C++,33,male
+JavaScript,82,male
+Java,72,male
+Python,92,male
+C,24,male
+Go,51,male
+Python,17,male
+Assembly language,95,male
+C,87,male
+C++,79,male
+Perl,69,male
+Ruby,15,male
+Haskell,63,male
+Delphi/Object Pascal,83,male
+Java,48,male
+Kotlin,34,male
+Elm,26,male
+JavaScript,40,male
+C#,30,male
+Go,44,male
+PHP,54,male
+JSON,3,noAns
+XML,3,noAns
+Excel,50,noAns
+Assembly language,96,noAns
+JavaScript,97,noAns
+CSS,13,noAns
+HTML,9,noAns
+SQL,73,noAns
+Java,97,noAns
+Visual Basic,97,noAns
+Delphi/Object Pascal,96,noAns
+C#,97,noAns
+Perl,97,noAns
+Visual Basic .NET,96,noAns
+PHP,97,noAns
+C,98,noAns
+C,98,male
+C++,91,male
+JavaScript,61,male
+JSON,3,male
+HTML,4,male
+SQL,21,male
+Excel,32,male
+C#,68,male
+Assembly language,79,male
+XML,7,male
+CSS,10,male
+Java,74,male
+PHP,71,male
+Python,52,male
+elm,45,male
+HTML,95,male
+CSS,88,male
+Objective-C,95,male
+Swift,81,male
+Excel,53,male
+Python,94,male
+XML,74,male
+Perl,73,male
+Groovy,66,male
+Java,87,male
+JavaScript,89,male
+JSON,60,male
+Visual Basic .NET,94,male
+C++,94,male
+Go,83,male
+Scratch,59,male
+MATLAB,65,male
+Visual Basic,70,male
+PHP,76,male
+C#,96,male
+R,87,male
+C,90,male
+Delphi/Object Pascal,75,male
+SQL,81,male
+Assembly language,71,male
+Ruby,92,male
+Scratch,22,male
+HTML,48,male
+C++,87,male
+JavaScript,79,male
+CSS,64,male
+PHP,72,male
+Excel,29,male
+HTML,28,male
+JavaScript,82,male
+CSS,64,male
+Go,51,male
+Assembly language,92,male
+Scratch,86,male
+C,95,male
+Delphi/Object Pascal,92,male
+JSON,28,male
+Objective-C,93,male
+C++,95,male
+R,51,male
+SQL,29,male
+Python,94,male
+Excel,28,male
+XML,28,male
+Visual Basic,93,male
+Visual Basic .NET,92,male
+Java,94,male
+C#,95,male
+Perl,95,male
+Swift,94,male
+PHP,95,male
+Ruby,75,male
+Groovy,51,male
+MATLAB,51,male
+Objective-C,93,male
+HTML,94,male
+JavaScript,93,male
+Ruby,94,male
+PHP,95,male
+R,95,male
+MATLAB,94,male
+Scratch,94,male
+Perl,95,male
+CSS,95,male
+Excel,94,male
+Delphi/Object Pascal,92,male
+C#,95,male
+Visual Basic .NET,92,male
+Groovy,94,male
+SQL,95,male
+JSON,94,male
+Python,94,male
+Java,94,male
+C,95,male
+XML,95,male
+Go,95,male
+Visual Basic,93,male
+Swift,94,male
+C++,95,male
+Assembly language,92,male
+Kotlin,51,male
+CSS,6,male
+JSON,12,male
+Excel,26,male
+XML,17,male
+HTML,22,male
+Scratch,31,male
+JavaScript,91,male
+Java,91,male
+C++,91,male
+C,92,male
+Python,91,male
+Go,91,male
+C#,94,male
+Objective-C,91,male
+R,91,male
+Assembly language,92,male
+Swift,93,male
+Visual Basic,92,male
+Delphi/Object Pascal,92,male
+Visual Basic .NET,81,male
+Ruby,92,male
+Groovy,91,male
+SQL,54,male
+PHP,91,male
+MATLAB,81,male
+Perl,91,male
+Pony,20,male
+Forth,15,male
+D,94,male
+Python,92,male
+C,54,male
+Ruby,82,male
+CSS,32,male
+Haskell,84,male
+JavaScript,65,male
+Scheme,39,male
+Racket,71,male
+PHP,11,male
+SQL,33,male
+HTML,40,male
+JSON,39,male
+F#,93,male
+rust,30,male
+Typescript,14,male
+C#,68,male
+Go,48,male
+Excel,94,male
+Assembly language,89,male
+CSS,9,male
+HTML,14,male
+SQL,85,male
+C,93,male
+C++,91,male
+Scratch,82,male
+Ruby,24,male
+Go,88,male
+JavaScript,42,male
+Perl,57,male
+Swift,34,male
+Haskell,17,male
+Python,20,male
+Elixir,16,male
+Erlang,30,male
+Rust,50,male
+PHP,43,male
+Objective-C,66,male
+Python,63,male
+Java,71,male
+CSS,10,male
+C,82,male
+Swift,70,male
+JSON,5,male
+C#,64,male
+Perl,66,male
+Groovy,67,male
+HTML,5,male
+Visual Basic .NET,65,male
+PHP,62,male
+C++,66,male
+Visual Basic,69,male
+JavaScript,66,male
+Assembly language,93,male
+Delphi/Object Pascal,71,male
+R,64,male
+Excel,38,male
+SQL,42,male
+Scratch,28,male
+MATLAB,41,male
+Go,75,male
+XML,5,male
+Ruby,75,male
+common lisp,78,male
+scheme,73,male
+C++,88,male
+Python,78,male
+Java,66,male
+HTML,59,male
+CSS,55,male
+JavaScript,49,male
+Assembly language,27,male
+C,93,male
+Visual Basic,21,female
+Assembly language,91,female
+Excel,7,female
+XML,36,female
+HTML,30,female
+CSS,33,female
+PHP,33,female
+SQL,44,female
+C++,66,female
+C,67,female
+R,82,female
+MATLAB,76,female
+Java,77,female
+Scratch,58,female
+Perl,77,female
+Python,80,female
+C,92,male
+MATLAB,61,male
+Scratch,18,male
+Assembly language,51,male
+PHP,27,male
+Excel,12,male
+HTML,5,male
+SQL,7,male
+Python,73,male
+R,74,male
+Java,67,male
+XML,7,male
+JSON,4,male
+C#,89,male
+C++,89,male
+CSS,4,male
+Go,68,male
+Perl,23,male
+Visual Basic,18,male
+Objective-C,88,male
+Ruby,68,male
+Swift,68,male
+JavaScript,19,male
+Visual Basic .NET,18,male
+Delphi/Object Pascal,88,male
+Groovy,51,male
+C++,95,male
+Java,94,male
+HTML,6,male
+JavaScript,93,male
+Assembly language,92,male
+JSON,6,male
+CSS,6,male
+Excel,51,male
+Swift,94,male
+C,95,male
+C#,95,male
+SQL,6,male
+Excel,9,male
+SQL,35,male
+Python,72,male
+Java,90,male
+HTML,22,male
+XML,24,male
+C,91,male
+JavaScript,72,male
+C,86,male
+Python,61,male
+Perl,58,male
+CSS,20,male
+Excel,15,male
+XML,7,male
+Ruby,59,male
+HTML,10,male
+JavaScript,51,male
+JSON,8,male
+SQL,48,male
+Java,75,male
+PHP,65,male
+Scheme,64,male
+Haskell,67,male
+Prolog,58,male
+HTML,8,female
+CSS,18,female
+Python,72,female
+SQL,34,female
+Java,86,female
+C,95,female
+R,62,female
+Excel,26,female
+SPSS syntax,42,female
+JavaScript,47,female
+XML,4,male
+JSON,6,male
+Assembly language,94,male
+HTML,12,male
+MATLAB,43,male
+Objective-C,81,male
+Delphi/Object Pascal,88,male
+C,91,male
+Swift,73,male
+JavaScript,78,male
+R,51,male
+Groovy,64,male
+Visual Basic .NET,84,male
+Ruby,84,male
+Python,91,male
+Java,94,male
+C#,87,male
+Scratch,57,male
+Visual Basic,61,male
+CSS,9,male
+Go,88,male
+Excel,16,male
+SQL,5,male
+PHP,81,male
+C++,94,male
+Perl,60,male
+Visual Basic .NET,57,male
+Excel,10,male
+Assembly language,96,male
+R,73,male
+Python,82,male
+JavaScript,54,male
+JSON,40,male
+CSS,38,male
+HTML,36,male
+XML,35,male
+SQL,22,male
+Go,69,male
+HTML,12,male
+Scratch,51,male
+Python,65,male
+R,37,male
+Assembly language,77,male
+C#,74,male
+C,82,male
+Java,78,male
+Excel,40,male
+Delphi/Object Pascal,76,male
+Ruby,79,male
+Perl,34,male
+Objective-C,75,male
+XML,15,male
+Swift,65,male
+CSS,22,male
+SQL,56,male
+Visual Basic,68,male
+JavaScript,75,male
+Visual Basic .NET,77,male
+C++,73,male
+MATLAB,74,male
+Groovy,67,male
+PHP,71,male
+JSON,8,male
+Haskell,97,male
+Scala,87,male
+Rust,77,male
+Java,38,male
+Python,47,male
+PHP,14,male
+C++,9,male
+Assembly language,4,male
+JavaScript,19,male
+C,27,male
+HTML,13,male
+Excel,25,male
+JSON,5,male
+XML,12,male
+CSS,12,male
+R,64,male
+Delphi/Object Pascal,85,male
+C,88,male
+C++,87,male
+C#,73,male
+SQL,40,male
+MATLAB,63,male
+R,62,male
+Python,75,male
+C,93,male
+HTML,30,male
+Excel,40,male
+JavaScript,51,male
+JSON,6,male
+HTML,6,male
+Excel,29,male
+C,55,male
+C++,87,male
+Perl,66,male
+CSS,16,male
+Assembly language,47,male
+Python,76,male
+MATLAB,69,male
+SQL,12,male
+Ocaml,93,male
+Rust,88,male
+Scala,94,male
+C++,82,male
+Assembly language,90,male
+Java,71,male
+XML,8,male
+Excel,32,male
+SQL,60,male
+JSON,8,male
+Scratch,50,male
+HTML,17,male
+XML,9,noAns
+C,97,noAns
+C++,97,noAns
+PHP,97,noAns
+Visual Basic,91,noAns
+Go,97,noAns
+JavaScript,96,noAns
+Groovy,87,noAns
+R,91,noAns
+Delphi/Object Pascal,93,noAns
+JSON,3,noAns
+CSS,70,noAns
+Swift,97,noAns
+SQL,79,noAns
+Python,97,noAns
+C#,97,noAns
+Perl,97,noAns
+HTML,25,noAns
+Objective-C,96,noAns
+Scratch,95,noAns
+Java,97,noAns
+Excel,80,noAns
+Assembly language,95,noAns
+Ruby,97,noAns
+Erlang,97,noAns
+MATLAB,83,noAns
+JSON,3,male
+HTML,3,male
+Assembly language,96,male
+SQL,97,male
+CSS,78,male
+R,98,male
+Excel,78,male
+XML,3,male
+Java,83,male
+C++,96,male
+Swift,90,male
+MATLAB,33,male
+R,36,male
+JavaScript,72,male
+SQL,50,male
+Go,85,male
+PHP,79,male
+JSON,8,male
+Excel,26,male
+C,93,male
+Ruby,77,male
+C#,83,male
+Visual Basic,68,male
+Python,77,male
+Visual Basic .NET,71,male
+Objective-C,87,male
+HTML,21,male
+CSS,12,male
+XML,15,male
+Perl,73,male
+Assembly language,94,male
+C#,64,male
+C++,74,male
+Java,40,male
+Swift,18,male
+JavaScript,33,male
+C,82,male
+XML,25,male
+CSS,13,male
+Excel,5,male
+HTML,46,male
+Objective-C,53,male
+Python,92,male
+Excel,28,male
+XML,5,male
+HTML,7,male
+SQL,16,male
+CSS,12,male
+Scratch,32,male
+JSON,5,male
+Visual Basic .NET,41,male
+Assembly language,93,male
+C,89,male
+C++,84,male
+Groovy,68,male
+Java,64,male
+Python,55,male
+Objective-C,76,male
+JavaScript,53,male
+Visual Basic,34,male
+Go,75,male
+Perl,52,male
+R,47,male
+Ruby,75,male
+Swift,75,male
+MATLAB,41,male
+Delphi/Object Pascal,75,male
+PHP,52,male
+C#,79,male
+Java,3,male
+Excel,97,male
+Python,90,male
+PHP,62,male
+JavaScript,72,male
+Delphi/Object Pascal,80,male
+C,51,male
+Assembly language,44,male
+C#,27,male
+C++,15,male
+JSON,3,male
+CSS,16,male
+HTML,3,male
+Assembly language,96,male
+XML,3,male
+JavaScript,85,male
+SQL,80,male
+Objective-C,85,male
+Visual Basic .NET,85,male
+PHP,85,male
+Java,86,male
+Groovy,85,male
+C#,86,male
+Ruby,86,male
+R,86,male
+Visual Basic,85,male
+Python,86,male
+Swift,86,male
+Perl,86,male
+Go,86,male
+C++,93,male
+C,93,male
+Delphi/Object Pascal,87,male
+Scratch,86,male
+MATLAB,80,male
+Excel,80,male
+C,96,male
+Excel,51,male
+Visual Basic .NET,93,male
+Perl,95,male
+PHP,95,male
+JSON,5,male
+MATLAB,94,male
+Go,95,male
+Objective-C,94,male
+R,96,male
+Swift,95,male
+C++,95,male
+C#,95,male
+Java,95,male
+Python,95,male
+Visual Basic,94,male
+XML,4,male
+Delphi/Object Pascal,93,male
+JavaScript,94,male
+HTML,5,male
+SQL,95,male
+Assembly language,93,male
+Scratch,95,male
+CSS,4,male
+Ruby,95,male
+Excel,3,male
+CSS,39,male
+XML,8,male
+JSON,13,male
+Assembly language,96,male
+C++,87,male
+C,92,male
+JavaScript,55,male
+MATLAB,19,male
+PHP,55,male
+SQL,28,male
+Ruby,45,male
+Visual Basic,16,male
+HTML,10,male
+Java,71,male
+Go,66,male
+Objective-C,65,male
+Python,55,male
+JSON,10,male
+SQL,37,male
+Objective-C,80,male
+Python,76,male
+Swift,89,male
+Assembly language,93,male
+JavaScript,67,male
+CSS,27,male
+Go,84,male
+Ruby,60,male
+HTML,18,male
+Groovy,22,male
+Java,80,male
+MATLAB,95,male
+Hack,86,male
+Rust,50,male
+Elixir,79,male
+Go,39,male
+SQL,71,male
+Assembly language,96,male
+Smalltalk,20,male
+R,65,male
+XML,91,male
+JavaScript,39,male
+Python,35,male
+FORTH,26,male
+Groovy,44,male
+C#,58,male
+Java,53,male
+C++,86,male
+JSON,81,male
+Ruby,31,male
+Self,3,male
+Scheme,16,male
+OCaml,7,male
+MATLAB,10,male
+ReasonML,13,male
+Visual Basic,38,male
+C++,72,male
+Visual Basic .NET,49,male
+C#,78,male
+Assembly language,86,male
+Excel,44,male
+JavaScript,59,male
+HTML,11,male
+C,76,male
+SQL,54,male
+Scratch,31,male
+Java,65,male
+CSS,5,male
+Go,62,male
+Perl,57,male
+Swift,51,male
+Groovy,64,male
+XML,16,male
+Python,54,male
+JSON,3,male
+Delphi/Object Pascal,41,male
+R,60,male
+Objective-C,58,male
+Ruby,58,male
+MATLAB,26,male
+PHP,46,male
+Assembly language,94,male
+Scala,83,male
+Haskell,88,male
+PHP,47,male
+JavaScript,53,male
+Swift,78,male
+Ruby,73,male
+Java,67,male
+Go,57,male
+C,63,male
+HTML,20,variant
+XML,13,variant
+JSON,6,variant
+Assembly language,94,variant
+C,87,variant
+C++,79,variant
+SQL,28,variant
+Excel,36,variant
+Python,44,variant
+JavaScript,50,variant
+Perl,58,variant
+Java,66,variant
+Go,72,variant
+CSS,26,male
+C,94,male
+Scratch,7,male
+JSON,13,male
+XML,15,male
+HTML,40,male
+JavaScript,66,male
+Python,74,male
+PHP,76,male
+C#,80,male
+Excel,9,male
+SQL,40,male
+Objective-C,79,male
+C++,77,male
+Java,78,male
+Ruby,71,male
+Go,71,male
+Perl,70,male
+Assembly language,91,male
+MATLAB,48,male
+Swift,78,male
+R,47,male
+Assembly language,95,female
+Go,79,female
+R,45,female
+CSS,11,female
+JSON,3,female
+XML,6,female
+HTML,15,female
+Python,76,female
+Java,86,female
+C,82,female
+Objective-C,63,female
+Ruby,59,female
+JavaScript,66,female
+PHP,70,female
+C++,73,female
+Perl,56,female
+Swift,53,female
+Scratch,41,female
+Excel,33,female
+SQL,29,female
+HTML,11,female
+Python,57,female
+CSS,10,female
+Java,84,female
+JavaScript,66,female
+Ruby,60,female
+C++,91,female
+MATLAB,29,female
+SQL,22,female
+Java,77,male
+JSON,3,male
+HTML,12,male
+SQL,24,male
+MATLAB,30,male
+JavaScript,54,male
+Python,73,male
+C,87,male
+R,50,male
+Python,50,male
+MATLAB,50,male
+Assembly language,96,male
+C++,79,male
+Java,66,male
+C#,79,male
+Objective-C,79,male
+JSON,3,male
+SQL,50,male
+Go,50,male
+Perl,50,male
+JavaScript,50,male
+C,79,male
+XML,3,male
+Excel,37,male
+CSS,26,male
+HTML,22,male
+Assembly language,95,noAns
+Python,3,noAns
+C,98,female
+Go,3,female
+Excel,7,female
+JSON,35,female
+R,41,female
+Ruby,72,female
+SQL,27,female
+Python,47,female
+C++,55,female
+HTML,60,female
+JavaScript,66,female
+Objective-C,90,female
+Assembly language,96,female
+CSS,12,male
+HTML,12,male
+JSON,5,male
+Python,86,male
+SQL,76,male
+Assembly language,96,male
+Visual Basic .NET,85,male
+Visual Basic,84,male
+Excel,69,male
+C#,87,male
+Objective-C,89,male
+C,93,male
+Swift,92,male
+Scratch,84,male
+Go,94,male
+Delphi/Object Pascal,90,male
+R,91,male
+C++,97,male
+JavaScript,90,male
+XML,11,male
+Java,92,male
+MATLAB,90,male
+PHP,89,male
+Groovy,89,male
+Perl,89,male
+Ruby,89,male
+Haskell,92,male
+SQL,28,male
+C,89,male
+Python,62,male
+CSS,16,male
+HTML,15,male
+JavaScript,58,male
+JSON,6,male
+XML,5,male
+Java,73,male
+Racket,84,male
+Assembly language,92,male
+CSS,28,male
+Ruby,29,male
+MATLAB,83,male
+SQL,42,male
+Perl,67,male
+Java,48,male
+JavaScript,34,male
+R,73,male
+Assembly language,90,male
+XML,7,male
+Groovy,37,male
+C++,70,male
+Python,26,male
+PHP,27,male
+HTML,7,male
+C,86,male
+JSON,7,male
+Excel,37,male
+Go,67,male
+JSON,5,male
+XML,5,male
+HTML,5,male
+CSS,5,male
+C#,95,male
+SQL,95,male
+Assembly language,93,male
+Go,95,male
+JSON,7,female
+CSS,14,female
+Haskell ,93,female
+Swift,93,female
+Python,78,female
+PHP,25,female
+JavaScript,34,female
+HTML,9,female
+XML,9,female
+Assembly language,9,female
+Excel,53,female
+C,41,female
+Ruby,78,female
+Scratch,56,female
+SQL,15,female
+Elixir,75,male
+Excel,19,male
+HTML,34,male
+C,75,male
+C++,75,male
+Assembly language,49,male
+HTML,10,male
+CSS,25,male
+Assembly language,91,male
+JSON,3,male
+C++,80,male
+Java,85,male
+Excel,17,male
+XML,45,male
+SQL,31,male
+Hack,76,transM
+Scratch,31,male
+Swift,68,male
+Python,77,male
+Objective-C,67,male
+PHP,40,male
+JSON,6,male
+CSS,28,male
+JavaScript,61,male
+Visual Basic .NET,38,male
+Delphi/Object Pascal,48,male
+Java,72,male
+C,89,male
+HTML,28,male
+Ruby,73,male
+Groovy,44,male
+MATLAB,45,male
+SQL,54,male
+Perl,78,male
+Visual Basic,30,male
+Assembly language,81,male
+Excel,21,male
+XML,6,male
+C++,87,male
+Go,87,male
+C#,86,male
+R,47,male
+Ruby,95,male
+SQL,50,male
+HTML,21,male
+Python,95,male
+Perl,95,male
+Scratch,81,male
+XML,5,male
+JSON,5,male
+Java,95,male
+MATLAB,95,male
+C,96,male
+JavaScript,94,male
+PHP,95,male
+C++,95,male
+CSS,21,male
+R,96,male
+Excel,79,male
+C#,96,male
+Objective-C,92,female
+Ruby,63,female
+HTML,28,female
+Excel,7,female
+MATLAB,68,female
+C,94,female
+C#,94,female
+C++,94,female
+Python,66,female
+Java,83,female
+Perl,94,female
+Scratch,17,female
+XML,34,female
+R,54,female
+JavaScript,94,male
+Python,94,male
+Java,23,male
+CSS,78,male
+XML,72,male
+HTML,74,male
+JSON,77,male
+C,95,male
+Assembly language,92,male
+SQL,65,male
+Java,94,male
+CSS,25,male
+JSON,7,male
+XML,15,male
+Excel,33,male
+Go,93,male
+JavaScript,92,male
+C,94,male
+Groovy,68,male
+Objective-C,92,male
+Assembly language,91,male
+Swift,93,male
+C++,94,male
+C#,94,male
+Python,93,male
+HTML,47,male
+MATLAB,93,male
+SQL,57,male
+C,79,male
+Assembly language,93,male
+XML,22,male
+JavaScript,46,male
+Java,67,male
+C#,57,male
+SQL,30,male
+Groovy,5,male
+Scratch,37,male
+Excel,14,male
+Visual Basic,85,transM
+CSS,30,transM
+MATLAB,74,transM
+SQL,47,transM
+Scratch,58,transM
+R,64,transM
+Go,81,transM
+Groovy,61,transM
+Assembly language,93,transM
+Python,77,transM
+JavaScript,67,transM
+Java,76,transM
+C,88,transM
+HTML,23,transM
+JSON,14,transM
+XML,19,transM
+CSS,4,variant
+XML,9,variant
+Visual Basic,20,variant
+MATLAB,14,variant
+Visual Basic .NET,26,variant
+Assembly language,95,variant
+C#,97,variant
+Groovy,85,variant
+Ruby,79,variant
+C,97,variant
+SQL,31,variant
+R,56,variant
+C++,74,variant
+PHP,50,variant
+Excel,11,variant
+HTML,7,variant
+Swift,89,variant
+Go,85,variant
+Delphi/Object Pascal,81,variant
+JSON,10,variant
+Perl,76,variant
+JavaScript,96,variant
+Scratch,50,variant
+Java,96,variant
+Python,96,variant
+Objective-C,95,variant
+SQL,39,male
+JSON,13,male
+Go,70,male
+Excel,34,male
+Visual Basic .NET,53,male
+CSS,37,male
+C#,69,male
+Java,68,male
+C,69,male
+C++,68,male
+PHP,55,male
+Ruby,56,male
+JavaScript,55,male
+Visual Basic,53,male
+Assembly language,85,male
+XML,12,male
+HTML,14,male
+Python,54,male
+Perl,52,male
+Swift,69,male
+Objective-C,68,male
+R,46,male
+Bash,53,male
+MATLAB,46,male
+JSON,7,male
+XML,11,male
+HTML,18,male
+CSS,51,male
+Assembly language,94,male
+Perl,87,male
+SQL,89,male
+C,92,male
+C++,92,male
+C#,92,male
+Java,87,male
+JavaScript,87,male
+Visual Basic .NET,86,male
+Objective-C,85,male
+Swift,87,male
+Delphi/Object Pascal,90,male
+MATLAB,77,male
+Python,92,male
+R,89,male
+Ruby,90,male
+Scratch,89,male
+Excel,66,male
+Go,88,male
+Groovy,93,male
+Visual Basic,91,male
+PHP,86,male
+Haskell,89,male
+XML,51,male
+Python,94,male
+Go,95,male
+MATLAB,93,male
+Objective-C,93,male
+C#,95,male
+Visual Basic,93,male
+CSS,51,male
+PHP,94,male
+Visual Basic .NET,92,male
+Java,94,male
+Perl,94,male
+JavaScript,93,male
+Swift,94,male
+Ruby,94,male
+SQL,82,male
+Delphi/Object Pascal,91,male
+R,95,male
+C++,94,male
+C,95,male
+Assembly language,92,male
+Scratch,94,male
+Excel,94,male
+HTML,51,male
+JSON,27,male
+SQL,45,male
+R,42,male
+JSON,7,male
+HTML,11,male
+XML,16,male
+CSS,20,male
+Excel,25,male
+Scratch,29,male
+Visual Basic,32,male
+Visual Basic .NET,36,male
+MATLAB,39,male
+PHP,53,male
+C,90,male
+Go,68,male
+Ruby,57,male
+C#,71,male
+JavaScript,49,male
+Groovy,60,male
+Perl,65,male
+Python,62,male
+Java,71,male
+Swift,74,male
+Objective-C,77,male
+C++,79,male
+Delphi/Object Pascal,82,male
+Assembly language,91,male
+Python,53,noAns
+C++,64,noAns
+Python,71,male
+XML,13,male
+Visual Basic .NET,59,male
+HTML,94,male
+Visual Basic,82,male
+SQL,25,male
+PHP,38,male
+JavaScript,48,male
+HTML,3,male
+C,87,male
+Assembly language,95,male
+JSON,8,male
+Go,91,male
+Excel,42,male
+XML,12,male
+CSS,33,male
+Perl,82,male
+Python,82,male
+Ruby,82,male
+SQL,51,male
+C#,82,male
+C++,87,male
+PHP,82,male
+Java,87,male
+MATLAB,67,male
+R,72,male
+JavaScript,85,male
+Visual Basic .NET,33,male
+JSON,7,male
+CSS,25,male
+R,48,male
+Delphi/Object Pascal,69,male
+Perl,56,male
+Go,85,male
+C,90,male
+Scratch,19,male
+Assembly language,91,male
+C++,88,male
+JavaScript,64,male
+Java,75,male
+Ruby,58,male
+Python,73,male
+XML,6,male
+Excel,28,male
+SQL,25,male
+Objective-C,81,male
+C#,83,male
+Groovy,37,male
+MATLAB,44,male
+Swift,82,male
+Visual Basic,28,male
+PHP,44,male
+HTML,9,male
+C#,82,female
+R,34,female
+MATLAB,35,female
+Assembly language,56,female
+Go,87,female
+C++,85,female
+XML,11,female
+HTML,28,female
+Groovy,42,female
+Python,81,female
+Excel,21,female
+JavaScript,79,female
+SQL,47,female
+Ruby,76,female
+Swift,74,female
+JSON,7,female
+C,80,female
+Java,82,female
+PHP,60,female
+CSS,24,female
+Python,97,male
+Go,97,male
+JavaScript,75,male
+HTML,30,male
+CSS,50,male
+Scratch,36,male
+Objective-C,93,female
+Go,65,female
+C++,79,female
+Assembly language,92,female
+HTML,30,female
+Excel,59,female
+JavaScript,71,female
+Python,75,female
+Visual Basic .NET,85,female
+MATLAB,40,female
+Scratch,6,female
+XML,12,female
+Ruby,97,male
+Groovy,97,male
+C++,97,male
+Visual Basic .NET,96,male
+R,98,male
+Go,97,male
+C,98,male
+Objective-C,97,male
+Scratch,90,male
+XML,3,male
+JavaScript,97,male
+Python,97,male
+SQL,74,male
+Visual Basic,97,male
+MATLAB,55,male
+Java,97,male
+Swift,97,male
+CSS,3,male
+Assembly language,96,male
+JSON,3,male
+C#,97,male
+HTML,30,male
+Perl,97,male
+Excel,36,male
+PHP,97,male
+Delphi/Object Pascal,96,male
+Java,72,male
+PHP,50,male
+Objective-C,80,male
+XML,25,male
+Python,65,male
+Swift,84,male
+Excel,56,male
+HTML,19,male
+JSON,13,male
+SQL,61,male
+C,89,male
+C#,75,male
+CSS,32,male
+C++,87,male
+Ruby,68,male
+JavaScript,62,male
+Whitespace,64,male
+Regex,70,male
+Delphi/Object Pascal,96,male
+Python,97,male
+Java,97,male
+C,97,male
+Visual Basic,88,male
+SQL,88,male
+Swift,97,male
+C++,97,male
+PHP,97,male
+Excel,50,male
+XML,34,male
+JavaScript,68,male
+JSON,37,male
+C#,97,male
+Assembly language,96,male
+Perl,94,male
+Objective-C,97,male
+Visual Basic .NET,90,male
+CSS,40,male
+HTML,42,male
+Ruby,89,male
+HTML,3,other
+JSON,3,other
+Assembly language,95,other
+C,89,other
+XML,3,other
+C++,83,other
+Java,82,other
+CSS,9,other
+CSS,28,male
+XML,28,male
+HTML,17,male
+JSON,28,male
+MATLAB,51,male
+Java,80,male
+Visual Basic .NET,80,male
+Python,82,male
+Groovy,83,male
+C,93,male
+Assembly language,89,male
+C++,92,male
+R,51,male
+Visual Basic,71,male
+JavaScript,89,male
+Excel,51,male
+Scratch,71,male
+SQL,51,male
+C#,86,male
+Delphi/Object Pascal,82,male
+PHP,83,male
+Ruby,87,male
+Objective-C,80,male
+Swift,81,male
+Go,82,male
+Perl,84,male
+SQL,19,female
+JSON,11,female
+Python,83,female
+JavaScript,80,female
+HTML,15,female
+XML,24,female
+CSS,28,female
+Python,86,female
+SQL,65,female
+Excel,31,female
+CSS,39,female
+Ruby,78,female
+JavaScript,78,female
+HTML,42,female
+CSS,27,male
+HTML,10,male
+XML,17,male
+JSON,4,male
+PHP,42,male
+C,78,male
+Go,55,male
+Java,68,male
+JavaScript,50,male
+Excel,31,male
+SQL,34,male
+C++,81,male
+Scala,85,male
+Rust,89,male
+Assembly language,95,male
+Ruby,64,male
+Scratch,22,male
+Java,69,male
+Perl,58,male
+Go,54,male
+R,27,male
+MATLAB,16,male
+C,40,male
+C++,44,male
+Python,49,male
+JavaScript,33,male
+XML,43,male
+Java,69,male
+Ruby,64,male
+Excel,27,male
+MATLAB,36,male
+Groovy,57,male
+Go,74,male
+Objective-C,84,male
+C++,77,male
+C,87,male
+Swift,84,male
+Assembly language,92,male
+Python,38,male
+Assembly language,64,male
+C,72,male
+JSON,3,male
+Visual Basic .NET,19,male
+JavaScript,14,male
+HTML,9,male
+Java,56,male
+Julia,44,male
+C++,77,male
+Go,52,male
+CSS,24,male
+Go,87,male
+XML,7,male
+JSON,11,male
+Swift,88,male
+C++,90,male
+Ruby,87,male
+Delphi/Object Pascal,87,male
+Python,88,male
+Objective-C,86,male
+Java,85,male
+Visual Basic .NET,87,male
+JavaScript,86,male
+C#,87,male
+Visual Basic,88,male
+Perl,87,male
+C,87,male
+Scratch,88,male
+HTML,16,male
+Groovy,84,male
+Assembly language,64,male
+PHP,64,male
+R,65,male
+MATLAB,66,male
+Excel,49,male
+SQL,45,male
+CSS,40,male
+HTML,-6,male
+Assembly language,98,male
+Delphi/Object Pascal,98,male
+Visual Basic .NET,98,male
+C#,100,male
+Java,99,male
+PHP,98,male
+Go,98,male
+JavaScript,98,male
+JSON,-46,male
+C++,99,male
+Scratch,35,male
+XML,37,male
+Swift,98,male
+Objective-C,98,male
+Groovy,98,male
+C,97,male
+Visual Basic,98,male
+R,59,male
+SQL,54,male
+CSS,47,male
+Excel,51,male
+Ruby,96,male
+MATLAB,51,male
+Perl,97,male
+Python,96,male
+Haskell,97,male
+APL,97,male
+ML,97,male
+CSS,3,noAns
+HTML,3,noAns
+XML,3,noAns
+Assembly language,50,noAns
+Groovy,50,noAns
+MATLAB,50,noAns
+Delphi/Object Pascal,50,noAns
+PHP,50,noAns
+C,50,noAns
+Excel,50,noAns
+R,50,noAns
+Perl,50,noAns
+Objective-C,50,noAns
+JSON,50,noAns
+SQL,50,noAns
+Python,50,noAns
+Go,50,noAns
+Java,50,noAns
+Visual Basic,50,noAns
+Swift,50,noAns
+Ruby,50,noAns
+Scratch,50,noAns
+Visual Basic .NET,50,noAns
+C++,50,noAns
+JavaScript,50,noAns
+C#,50,noAns
+Rust,50,noAns
+JSON,5,male
+Visual Basic .NET,92,male
+Assembly language,92,male
+C,95,male
+C#,95,male
+Scratch,45,male
+XML,5,male
+MATLAB,85,male
+Visual Basic,87,male
+HTML,4,male
+CSS,15,male
+XML,3,male
+JSON,3,male
+Groovy,93,male
+Scratch,86,male
+Visual Basic,76,male
+MATLAB,81,male
+SQL,26,male
+C++,97,male
+Go,97,male
+R,81,male
+JavaScript,90,male
+Assembly language,72,male
+Scala,93,noAns
+Haskell,97,noAns
+HTML,9,male
+XML,18,male
+CSS,27,male
+Excel,38,male
+JSON,17,male
+Assembly language,93,male
+SQL,48,male
+C,84,male
+Scratch,33,male
+C#,70,male
+Objective-C,84,male
+C++,81,male
+Visual Basic .NET,70,male
+Swift,70,male
+JavaScript,58,male
+Python,67,male
+Perl,67,male
+Java,70,male
+Delphi/Object Pascal,82,male
+Ruby,67,male
+PHP,60,male
+Groovy,67,male
+Visual Basic,63,male
+R,53,male
+Go,72,male
+MATLAB,53,male
+Rust,83,male
+Elixir,97,male
+Clojure,21,male
+MATLAB,26,female
+Java,85,female
+SQL,78,female
+Go,85,female
+Assembly language,96,female
+Ruby,85,female
+CSS,50,female
+HTML,50,female
+Scratch,40,female
+JavaScript,85,female
+JSON,65,female
+C,92,female
+Visual Basic .NET,85,female
+C#,85,female
+XML,66,female
+PHP,85,female
+C++,90,female
+Perl,85,female
+Excel,18,female
+R,31,female
+Visual Basic,85,female
+Objective-C,89,female
+Swift,89,female
+Delphi/Object Pascal,85,female
+Python,85,female
+Groovy,85,female
+XSLT,63,male
+XML,31,male
+HTML,12,male
+Excel,43,male
+JavaScript,72,male
+Python,74,male
+SQL,58,male
+C,82,male
+Haskell,91,male
+Assembly language,81,male
+C++,79,variant
+C,74,variant
+Assembly language,93,variant
+C#,66,variant
+Excel,17,variant
+XML,6,variant
+MATLAB,24,variant
+Scratch,32,variant
+Visual Basic,33,variant
+CSS,12,variant
+SQL,27,variant
+HTML,5,variant
+Visual Basic .NET,33,variant
+JSON,5,variant
+Python,63,variant
+Groovy,60,variant
+Go,65,variant
+Ruby,62,variant
+Java,64,variant
+R,23,variant
+Delphi/Object Pascal,46,variant
+Swift,51,variant
+PHP,54,variant
+JavaScript,60,variant
+Perl,60,variant
+Objective-C,58,variant
+R,6,male
+SQL,6,male
+MATLAB,7,male
+Visual Basic,8,male
+XML,6,male
+HTML,7,male
+Visual Basic,28,female
+Go,87,female
+Java,89,female
+Visual Basic .NET,28,female
+Excel,28,female
+C#,90,female
+Perl,90,female
+Assembly language,89,female
+C++,89,female
+Delphi/Object Pascal,90,female
+Objective-C,90,female
+Python,89,female
+R,28,female
+HTML,14,female
+JSON,14,female
+CSS,28,female
+JavaScript,89,female
+Swift,88,female
+C,89,female
+XML,14,female
+PHP,89,female
+SQL,57,female
+MATLAB,58,female
+Scratch,28,female
+Groovy,88,female
+Ruby,89,female
+HTML,4,male
+SQL,25,male
+CSS,4,male
+XML,4,male
+Excel,30,male
+Scratch,68,male
+C,95,male
+Perl,95,male
+Visual Basic,96,male
+R,97,male
+Delphi/Object Pascal,94,male
+Ruby,96,male
+Python,96,male
+JavaScript,96,male
+C#,97,male
+Assembly language,95,male
+Go,97,male
+Visual Basic .NET,95,male
+C++,94,male
+JSON,4,male
+Groovy,96,male
+Objective-C,96,male
+PHP,39,male
+Swift,96,male
+MATLAB,96,male
+Java,96,male
+Ruby,82,male
+HTML,8,male
+Assembly language,92,male
+JSON,6,male
+C,84,male
+Excel,64,male
+CSS,31,male
+XML,18,male
+SQL,43,male
+R,51,male
+Go,53,male
+JavaScript,62,male
+XML,6,male
+Excel,30,male
+haskell,93,male
+JSON,7,male
+Assembly language,40,male
+Perl,93,male
+XML,7,male
+SQL,31,male
+HTML,7,male
+JSON,7,male
+Visual Basic,71,male
+CSS,13,male
+Excel,57,male
+Ruby,93,male
+JSON,4,noAns
+HTML,7,noAns
+CSS,11,noAns
+XML,13,noAns
+C++,97,noAns
+Ruby,97,noAns
+Perl,97,noAns
+Objective-C,97,noAns
+MATLAB,97,noAns
+Visual Basic,97,noAns
+C#,97,noAns
+Go,97,noAns
+Swift,97,noAns
+Assembly language,96,noAns
+R,98,noAns
+PHP,97,noAns
+JavaScript,97,noAns
+Visual Basic .NET,96,noAns
+Groovy,97,noAns
+Java,97,noAns
+C,98,noAns
+Delphi/Object Pascal,96,noAns
+Python,97,noAns
+SQL,67,noAns
+Excel,63,noAns
+Scratch,37,noAns
+Scratch,35,female
+CSS,24,female
+XML,5,female
+JSON,5,female
+Perl,44,female
+HTML,14,female
+Assembly language,93,female
+C++,95,female
+Python,95,female
+Ruby,95,female
+R,88,female
+Swift,95,female
+JavaScript,94,female
+Go,96,female
+SQL,43,female
+C#,96,female
+Visual Basic,67,female
+Excel,68,female
+C,96,female
+Objective-C,94,female
+MATLAB,80,female
+PHP,80,female
+Java,95,female
+C,87,female
+Java,67,female
+Assembly language,91,female
+C++,77,female
+HTML,3,female
+CSS,3,female
+R,40,female
+Scratch,40,female
+Python,40,female
+Excel,40,female
+JavaScript,51,female
+JSON,27,female
+SQL,27,female
+Objective-C,67,female
+Swift,60,female
+C++,70,noAns
+JavaScript,14,noAns
+C#,8,noAns
+Delphi/Object Pascal,41,noAns
+Swift,11,noAns
+Excel,6,noAns
+R,18,noAns
+JSON,6,noAns
+XML,5,noAns
+HTML,6,noAns
+CSS,18,noAns
+Perl,21,noAns
+Java,32,noAns
+Ruby,51,noAns
+Python,45,noAns
+Scratch,9,noAns
+Assembly language,27,noAns
+MATLAB,6,noAns
+Visual Basic .NET,8,noAns
+SQL,5,noAns
+Go,27,noAns
+PHP,40,noAns
+C,51,noAns
+Objective-C,24,noAns
+Visual Basic,21,noAns
+Groovy,6,noAns
+Haskell ,94,noAns
+Scala,82,noAns
+Lisp,60,noAns
+MATLAB,63,female
+Java,94,female
+JSON,12,female
+SQL,46,female
+XML,12,female
+HTML,12,female
+C,95,female
+C#,94,female
+Scratch,81,female
+C++,94,female
+Groovy,87,female
+C++,50,male
+Assembly language,96,male
+Ruby,50,male
+SQL,17,male
+C,90,male
+Python,62,male
+Swift,69,male
+Java,78,male
+Go,85,male
+CSS,64,male
+JavaScript,93,male
+Go,95,male
+Perl,95,male
+C#,95,male
+Delphi/Object Pascal,92,male
+HTML,26,male
+Objective-C,93,male
+MATLAB,94,male
+JSON,6,male
+PHP,95,male
+Assembly language,92,male
+XML,28,male
+Python,94,male
+C++,95,male
+Scratch,94,male
+SQL,79,male
+R,95,male
+Visual Basic .NET,92,male
+Excel,51,male
+C,95,male
+Groovy,94,male
+Ruby,94,male
+Java,94,male
+Swift,94,male
+Visual Basic,93,male
+Elm,95,male
+Scratch,94,male
+Go,73,male
+JavaScript,85,male
+Python,85,male
+Ruby,85,male
+C++,69,male
+C#,85,male
+C,56,male
+HTML,5,male
+Assembly language,41,male
+Excel,90,male
+JSON,5,male
+SQL,78,male
+CSV,5,male
+Haskell,90,male
+JSON,3,variant
+Python,97,variant
+JavaScript,97,variant
+Delphi/Object Pascal,96,variant
+SQL,86,variant
+MATLAB,97,variant
+C++,97,variant
+Visual Basic,97,variant
+PHP,97,variant
+Perl,97,variant
+Swift,97,variant
+Scratch,97,variant
+C,97,variant
+CSS,38,variant
+HTML,37,variant
+Go,97,variant
+Visual Basic .NET,96,variant
+C#,97,variant
+Assembly language,96,variant
+XML,3,variant
+Java,97,variant
+Ruby,97,variant
+Excel,86,variant
+Objective-C,97,variant
+R,97,variant
+Assembly language,95,male
+C,93,male
+C++,89,male
+Java,86,male
+HTML,19,male
+MATLAB,58,male
+Swift,64,male
+JavaScript,79,male
+Objective-C,74,male
+Perl,82,male
+Python,38,male
+Delphi/Object Pascal,70,male
+CSS,5,male
+Scratch,10,male
+XML,62,male
+Groovy,43,male
+Go,74,male
+C#,78,male
+PHP,66,male
+Excel,70,male
+SQL,75,male
+R,68,male
+Visual Basic .NET,53,male
+Visual Basic,15,male
+JSON,29,male
+Ruby,79,male
+HTML,3,male
+C,97,male
+JSON,3,male
+Ruby,97,male
+MATLAB,97,male
+C++,97,male
+Excel,82,male
+Delphi/Object Pascal,96,male
+Visual Basic .NET,96,male
+Assembly language,96,male
+Scratch,97,male
+JavaScript,97,male
+XML,3,male
+PHP,97,male
+C#,97,male
+Groovy,97,male
+CSS,6,male
+SQL,97,male
+Objective-C,97,male
+Python,97,male
+Go,97,male
+Perl,97,male
+R,82,male
+Java,97,male
+Swift,97,male
+Visual Basic,97,male
+Visual Basic .NET,4,male
+R,12,male
+Excel,15,male
+Swift,3,male
+SQL,92,male
+Scratch,5,male
+C#,76,male
+PHP,3,male
+JSON,88,male
+HTML,6,male
+MATLAB,3,male
+Python,97,male
+Assembly language,4,male
+C++,3,male
+Visual Basic,3,male
+JavaScript,62,male
+Go,94,male
+C,3,male
+Ruby,3,male
+CSS,3,male
+Delphi/Object Pascal,4,male
+Objective-C,3,male
+Java,69,male
+Perl,10,male
+XML,37,male
+Groovy,50,male
+CSS,29,male
+C,63,male
+Excel,16,male
+Go,79,male
+Haskell,93,male
+Assembly language,40,male
+Perl,70,male
+Groovy,51,male
+Visual Basic,46,male
+Python,75,male
+JSON,6,male
+XML,6,male
+HTML,9,male
+Python,64,female
+Swift,43,female
+XML,35,female
+CSS,29,female
+Java,64,female
+Scratch,51,female
+PHP,64,female
+Visual Basic .NET,65,female
+Objective-C,66,female
+Perl,65,female
+Ruby,67,female
+Assembly language,93,female
+MATLAB,21,female
+Visual Basic,66,female
+Excel,51,female
+C++,77,female
+R,51,female
+HTML,36,female
+C,85,female
+JavaScript,58,female
+SQL,43,female
+Groovy,51,female
+JSON,29,female
+Delphi/Object Pascal,51,female
+Go,51,female
+C#,67,female
+Perl,97,male
+PHP,97,male
+Delphi/Object Pascal,96,male
+Visual Basic,97,male
+JavaScript,97,male
+Go,97,male
+MATLAB,97,male
+C++,97,male
+Assembly language,96,male
+Java,97,male
+Python,97,male
+R,98,male
+Groovy,97,male
+Scratch,97,male
+Ruby,97,male
+Excel,97,male
+SQL,97,male
+C,98,male
+Objective-C,97,male
+C#,97,male
+Visual Basic .NET,96,male
+Swift,97,male
+HTML,3,male
+CSS,3,male
+JSON,3,male
+XML,3,male
+Assembly language,96,male
+SQL,11,male
+Visual Basic .NET,96,male
+Groovy,97,male
+HTML,3,male
+JSON,3,male
+XML,7,male
+Swift,97,male
+Scratch,97,male
+Go,97,male
+R,98,male
+Python,97,male
+Java,97,male
+Perl,97,male
+Delphi/Object Pascal,96,male
+Visual Basic,97,male
+PHP,97,male
+JavaScript,97,male
+C#,97,male
+C++,97,male
+Objective-C,97,male
+C,98,male
+Ruby,97,male
+MATLAB,77,male
+CSS,7,male
+Excel,70,male
+HTML,14,male
+Perl,95,male
+JSON,5,male
+CSS,22,male
+SQL,40,male
+Swift,95,male
+JavaScript,94,male
+Visual Basic .NET,93,male
+Objective-C,94,male
+MATLAB,74,male
+Groovy,95,male
+Go,95,male
+Visual Basic,65,male
+C,96,male
+Assembly language,93,male
+Java,95,male
+C#,95,male
+Ruby,95,male
+Python,95,male
+XML,5,male
+PHP,95,male
+C++,95,male
+Excel,31,male
+Python,93,variant
+C++,28,variant
+XML,61,variant
+JavaScript,75,variant
+Visual Basic .NET,37,variant
+HTML,81,variant
+CSS,86,variant
+Visual Basic,37,variant
+Assembly language,96,female
+CSS,13,female
+JSON,19,female
+Scratch,3,female
+HTML,8,female
+Perl,80,female
+Delphi/Object Pascal,89,female
+C#,46,female
+Go,40,female
+Groovy,36,female
+Python,31,female
+Ruby,43,female
+Swift,50,female
+Excel,24,female
+JavaScript,53,female
+Objective-C,59,female
+C++,64,female
+Visual Basic,55,female
+PHP,62,female
+C,85,female
+SQL,28,female
+Java,49,female
+Visual Basic .NET,53,female
+MATLAB,34,female
+XML,16,female
+R,22,female
+Elixir,77,male
+HTML,21,male
+Ruby,77,male
+JavaScript,77,male
+Swift,77,male
+Visual Basic .NET,69,male
+JSON,21,male
+C#,77,male
+Java,77,male
+Scratch,48,male
+Excel,53,male
+CSS,35,male
+XML,21,male
+Go,77,male
+Pseudocode,97,male
+Go,93,male
+JavaScript,91,male
+C++,92,male
+C,93,male
+C#,95,male
+Java,93,male
+Assembly language,85,male
+Python,88,male
+Objective-C,89,male
+Visual Basic,92,male
+Swift,88,male
+JSON,4,male
+Scratch,88,male
+Delphi/Object Pascal,89,male
+Perl,89,male
+PHP,90,male
+Visual Basic .NET,87,male
+Groovy,91,male
+Ruby,89,male
+R,71,male
+XML,7,male
+Excel,67,male
+CSS,58,male
+HTML,54,male
+MATLAB,22,male
+SQL,29,male
+Elm,88,male
+C#,54,male
+CSS,14,male
+SQL,50,male
+JavaScript,46,male
+JSON,3,male
+HTML,9,male
+Python,43,male
+C++,58,male
+Haskell,97,male
+F#,93,male
+Objective-C,39,male
+Visual Basic .NET,35,male
+XML,19,male
+Assembly language,63,male
+C,70,male
+Groovy,60,male
+Scratch,72,male
+HTML,44,male
+Go,55,male
+Assembly language,96,male
+Ruby,66,male
+JavaScript,68,male
+Excel,79,male
+Visual Basic,77,male
+C++,68,male
+PHP,48,male
+JSON,3,male
+XML,7,male
+R,57,male
+Visual Basic .NET,68,male
+Python,68,male
+Objective-C,71,male
+Java,70,male
+CSS,52,male
+C#,70,male
+SQL,49,male
+Perl,3,male
+Swift,71,male
+Objective-C,96,male
+XML,12,male
+JSON,17,male
+Assembly language,95,male
+C,97,male
+C#,97,male
+JavaScript,96,male
+Java,96,male
+Go,97,male
+Delphi/Object Pascal,82,male
+R,65,male
+MATLAB,66,male
+Excel,42,male
+SQL,31,male
+Python,96,male
+CSS,14,male
+PHP,96,male
+HTML,23,male
+Swift,96,male
+Scratch,54,male
+C++,96,male
+Groovy,96,male
+Ruby,96,male
+Visual Basic .NET,95,male
+Perl,96,male
+Visual Basic,96,male
+bash,80,male
+Python,85,male
+C,74,male
+XML,69,male
+Groovy,50,male
+Ruby,83,male
+C++,64,male
+Java,78,male
+HTML,77,male
+Assembly language,25,male
+JavaScript,90,male
+Go,59,male
+Perl,34,male
+Delphi/Object Pascal,18,male
+Visual Basic .NET,45,male
+Objective-C,80,male
+PHP,61,male
+Visual Basic,39,male
+R,53,male
+JSON,94,male
+C#,71,male
+MATLAB,52,male
+SQL,84,male
+CSS,78,male
+Excel,41,male
+Scratch,29,male
+Swift,58,male
+NiFi,73,male
+Excel,55,male
+JavaScript,79,male
+CSS,45,male
+JSON,39,male
+R,63,male
+Java,83,male
+Go,90,male
+C,86,male
+Ruby,76,male
+Python,85,male
+C#,85,male
+PHP,70,male
+Assembly language,81,male
+C++,91,male
+SQL,50,male
+XML,15,male
+HTML,19,male
+Scratch,47,male
+Swift,87,male
+XML,16,male
+HTML,21,male
+Ruby,87,male
+C#,87,male
+CSS,26,male
+C,87,male
+Java,87,male
+Excel,3,male
+SQL,37,male
+JSON,16,male
+Python,87,male
+Scratch,58,male
+Perl,85,male
+C++,86,male
+Go,85,male
+JavaScript,86,male
+Objective-C,86,male
+SQL,52,male
+JSON,3,male
+XML,13,male
+HTML,17,male
+Excel,33,male
+CSS,24,male
+Elm,97,male
+Assembly language,96,male
+C,98,male
+R,98,male
+JavaScript,97,male
+Perl,97,male
+Go,97,male
+Python,97,male
+Java,97,male
+Objective-C,97,male
+C++,97,male
+PHP,97,male
+Ruby,97,male
+Swift,97,male
+MATLAB,97,male
+C#,97,male
+Lisp,97,male
+XML,10,male
+JSON,6,male
+Java,94,male
+Visual Basic,89,male
+R,89,male
+JavaScript,82,male
+Objective-C,89,male
+C,95,male
+Go,95,male
+Visual Basic .NET,92,male
+Perl,94,male
+Ruby,83,male
+Assembly language,85,male
+Python,91,male
+C++,87,male
+HTML,92,male
+MATLAB,83,male
+C#,90,male
+Scratch,85,male
+Groovy,94,male
+PHP,89,male
+Swift,82,male
+Excel,84,male
+SQL,85,male
+Delphi/Object Pascal,81,male
+CSS,23,male
+Rust,94,male
+Elixir,92,male
+HTML,9,male
+Groovy,65,male
+Perl,54,male
+XML,9,male
+JSON,9,male
+Go,90,male
+Python,91,male
+C++,85,male
+Swift,76,male
+R,43,male
+Assembly language,47,male
+Python,80,male
+PHP,63,male
+SQL,28,male
+C++,80,male
+Java,80,male
+Assembly language,89,male
+R,10,male
+C,86,male
+HTML,8,male
+JSON,3,male
+XML,7,male
+Haskell,93,male
+C#,97,male
+Ruby,88,male
+Excel,62,male
+CSS,32,male
+HTML,25,male
+SQL,79,male
+C,72,male
+R,67,male
+Assembly language,47,male
+Scratch,38,male
+MATLAB,55,male
+JSON,37,female
+MATLAB,33,female
+SQL,29,female
+Go,58,female
+HTML,42,female
+CSS,46,female
+Python,51,female
+JavaScript,65,female
+XML,3,male
+C#,97,male
+Ruby,97,male
+Go,97,male
+Java,97,male
+JSON,3,male
+SQL,97,male
+Kotlin,97,male
+C++,94,male
+Java,83,male
+PHP,63,male
+JSON,7,male
+XML,11,male
+Python,72,male
+C#,84,male
+Excel,51,male
+JavaScript,72,male
+C,94,male
+Assembly language,91,male
+CSS,22,male
+HTML,12,male
+Swift,87,male
+CSS,3,male
+JSON,14,male
+HTML,13,male
+XML,14,male
+SQL,28,male
+Scratch,51,female
+R,40,female
+Python,68,female
+Excel,29,female
+SQL,36,female
+JSON,5,male
+XML,5,male
+MATLAB,18,male
+SQL,20,male
+Excel,11,male
+Groovy,29,male
+HTML,24,male
+Visual Basic,28,male
+Go,51,male
+C,51,male
+Ruby,51,male
+Java,51,male
+Objective-C,51,male
+Python,51,male
+PHP,40,male
+Swift,51,male
+C++,63,male
+Visual Basic .NET,51,male
+C#,57,male
+Assembly language,68,male
+CSS,33,male
+Delphi/Object Pascal,59,male
+JavaScript,51,male
+Perl,51,male
+Scratch,51,male
+R,51,male
+JavaScript,87,male
+CSS,26,male
+HTML,32,male
+Java,94,male
+Python,76,male
+C,83,male
+Assembly language,67,male
+C#,71,male
+C++,62,male
+JSON,6,male
+XML,6,male
+Ruby,44,male
+MATLAB,39,male
+R,76,male
+SQL,57,male
+Excel,19,male
+Perl,31,male
+Go,95,male
+Objective-C,79,male
+PHP,51,male
+R,81,noAns
+XML,12,noAns
+HTML,8,noAns
+SQL,51,noAns
+C#,91,noAns
+Java,90,noAns
+CSS,21,noAns
+Assembly language,92,noAns
+C++,95,noAns
+Visual Basic .NET,76,noAns
+JSON,27,noAns
+Go,80,male
+Java,85,male
+JavaScript,88,male
+Delphi/Object Pascal,90,male
+PHP,83,male
+Excel,51,male
+C#,82,male
+Perl,76,male
+Objective-C,86,male
+Scratch,49,male
+C,94,male
+XML,21,male
+HTML,16,male
+Assembly language,84,male
+Visual Basic .NET,76,male
+Ruby,80,male
+C++,87,male
+SQL,82,male
+MATLAB,51,male
+Visual Basic,80,male
+Groovy,86,male
+JSON,20,male
+Swift,79,male
+Python,84,male
+CSS,21,male
+R,82,male
+C++,91,male
+C,90,male
+CSS,27,male
+XML,14,male
+Go,91,male
+C#,91,male
+R,50,male
+Excel,48,male
+Assembly language,91,male
+Objective-C,91,male
+MATLAB,56,male
+Visual Basic .NET,74,male
+JSON,14,male
+HTML,3,male
+SQL,50,male
+Java,91,male
+Python,74,male
+Visual Basic,74,male
+Ruby,91,male
+Scratch,74,male
+Swift,91,male
+JavaScript,74,male
+Groovy,91,male
+PHP,74,male
+Delphi/Object Pascal,91,male
+Perl,74,male
+Go,69,female
+CSS,38,female
+SQL,29,female
+JSON,20,female
+HTML,45,female
+JavaScript,78,female
+Java,92,female
+Swift,84,female
+Python,59,female
+Java,94,male
+Delphi/Object Pascal,30,male
+XML,6,male
+HTML,15,female
+CSS,26,female
+Java,65,female
+SQL,39,female
+JSON,7,female
+JavaScript,48,female
+Ruby,58,female
+Scala,82,female
+Swift,75,female
+R,91,female
+Elm,79,female
+XML,27,male
+Perl,83,male
+Python,83,male
+PHP,81,male
+Excel,41,male
+JavaScript,79,male
+C#,78,male
+SQL,80,male
+HTML,64,male
+Visual Basic,78,male
+R,61,male
+Assembly language,92,male
+CSS,62,male
+C,95,male
+Delphi/Object Pascal,81,male
+Go,85,male
+Swift,85,male
+Java,85,male
+Ruby,85,male
+Objective-C,85,male
+Scratch,62,male
+JSON,28,male
+MATLAB,33,male
+C++,86,male
+Visual Basic .NET,82,male
+Groovy,84,male
+Assembly language,95,male
+C++,89,male
+C,80,male
+HTML,3,male
+R,28,male
+MATLAB,22,male
+Scratch,16,male
+Excel,11,male
+JSON,8,male
+XML,5,male
+SQL,35,male
+Swift,85,male
+Go,87,male
+Objective-C,75,male
+CSS,3,male
+JavaScript,91,male
+Python,58,male
+Bash,48,male
+Java,83,male
+Visual Basic,41,male
+Swift,92,male
+HTML,48,male
+PHP,91,male
+SQL,77,male
+JSON,17,male
+Groovy,92,male
+Scratch,92,male
+XML,18,male
+Visual Basic .NET,89,male
+Java,92,male
+R,82,male
+MATLAB,91,male
+Delphi/Object Pascal,89,male
+Excel,77,male
+Go,93,male
+JavaScript,91,male
+Python,92,male
+C++,93,male
+Visual Basic,91,male
+Assembly language,89,male
+Objective-C,91,male
+C,93,male
+Perl,93,male
+Ruby,92,male
+CSS,63,male
+C#,93,male
+Python,93,male
+Assembly language,35,male
+HTML,6,male
+JSON,11,male
+SQL,28,male
+Swift,94,male
+Ruby,94,male
+Perl,94,male
+C++,94,male
+JavaScript,93,male
+Visual Basic .NET,75,male
+Scratch,74,male
+PHP,64,male
+C,94,male
+Groovy,93,male
+Objective-C,92,male
+MATLAB,64,male
+Excel,64,male
+CSS,15,male
+Java,94,male
+Delphi/Object Pascal,91,male
+XML,8,male
+Visual Basic,75,male
+R,65,male
+C#,94,male
+Go,94,male
+C#,51,male
+Node,72,male
+JavaScript,95,male
+Python,89,male
+MATLAB,73,male
+JavaScript,78,male
+Go,83,male
+Java,84,male
+C,84,male
+XML,16,male
+Assembly language,87,male
+C#,82,male
+Excel,51,male
+Visual Basic .NET,61,male
+CSS,9,male
+Python,73,male
+JSON,6,male
+HTML,35,male
+Ruby,73,male
+Visual Basic,51,male
+PHP,69,male
+C++,81,male
+CSS,7,male
+Assembly language,87,male
+Excel,32,male
+PHP,56,male
+JSON,21,male
+Go,62,male
+Visual Basic,59,male
+Ruby,63,male
+HTML,13,male
+Perl,63,male
+SQL,27,male
+C#,65,male
+Visual Basic .NET,65,male
+C,78,male
+C++,71,male
+XML,6,male
+MATLAB,41,male
+Swift,55,male
+R,50,male
+Objective-C,58,male
+Python,56,male
+Java,61,male
+JavaScript,51,male
+Scratch,51,male
+Groovy,51,male
+Delphi/Object Pascal,59,male
+C,98,male
+C++,97,male
+C#,97,male
+Ruby,97,male
+JavaScript,97,male
+Java,97,male
+HTML,97,male
+Excel,97,male
+Python,97,male
+Go,97,male
+PHP,97,male
+CSS,97,male
+R,98,male
+JSON,97,male
+XML,97,male
+Delphi/Object Pascal,96,male
+Visual Basic,97,male
+SQL,97,male
+Objective-C,97,male
+Swift,97,male
+Assembly language,96,male
+Perl,97,male
+Scratch,97,male
+Groovy,97,male
+Visual Basic .NET,96,male
+MATLAB,97,male
+JSON,3,male
+Objective-C,97,male
+Python,97,male
+MATLAB,97,male
+PHP,97,male
+Delphi/Object Pascal,96,male
+R,98,male
+Visual Basic .NET,96,male
+SQL,82,male
+Excel,52,male
+C++,97,male
+Java,97,male
+JavaScript,97,male
+Swift,97,male
+HTML,3,male
+XML,7,male
+Groovy,97,male
+Assembly language,96,male
+C,98,male
+Go,97,male
+Perl,97,male
+Scratch,92,male
+Ruby,97,male
+CSS,82,male
+Visual Basic,97,male
+C#,97,male
+Visual Basic,83,male
+JSON,10,male
+XML,16,male
+SQL,59,male
+C,92,male
+C++,87,male
+Scratch,87,male
+MATLAB,76,male
+JavaScript,81,male
+Assembly language,91,male
+Objective-C,8,female
+Java,94,female
+PHP,38,female
+Visual Basic .NET,18,female
+Visual Basic,13,female
+C#,54,female
+Ruby,62,female
+SQL,71,female
+C,67,female
+Python,77,female
+CSS,31,female
+C++,48,female
+JSON,58,female
+HTML,83,female
+JSON,6,male
+Java,94,male
+Go,79,male
+JavaScript,88,male
+Scratch,12,male
+Java,84,male
+Excel,6,male
+HTML,32,male
+JSON,23,male
+JavaScript,69,male
+Python,60,male
+Elm,51,male
+Ruby,95,male
+CSS,10,male
+Excel,54,male
+R,27,male
+Go,89,male
+SQL,64,male
+JSON,5,male
+HTML,17,male
+MATLAB,50,male
+XML,22,male
+Visual Basic .NET,93,male
+C,96,male
+C#,92,male
+Python,90,male
+JavaScript,94,male
+Excel,46,male
+HTML,30,male
+C++,93,male
+Scratch,56,male
+SQL,63,male
+JSON,7,male
+XML,7,male
+CSS,60,male
+SQL,20,male
+Python,85,male
+Java,86,male
+C++,85,male
+C,86,male
+Assembly language,29,male
+Go,86,male
+C#,86,male
+Scratch,53,male
+Objective-C,86,male
+Visual Basic,63,male
+JavaScript,73,male
+JSON,6,male
+Excel,44,male
+CSS,54,male
+MATLAB,63,male
+Groovy,37,male
+HTML,54,male
+Ruby,85,male
+R,63,male
+PHP,64,male
+Swift,80,male
+Perl,86,male
+XML,6,male
+Visual Basic .NET,64,male
+Delphi/Object Pascal,86,male
+XML,13,female
+HTML,17,female
+Ruby,87,female
+Java,91,female
+Visual Basic .NET,27,female
+C,96,female
+Scratch,32,female
+MATLAB,42,female
+Excel,37,female
+Assembly language,96,female
+JavaScript,73,female
+Perl,83,female
+Delphi/Object Pascal,78,female
+JSON,8,female
+C#,93,female
+SQL,50,female
+PHP,57,female
+Objective-C,89,female
+Groovy,87,female
+Python,85,female
+CSS,22,female
+Go,87,female
+Swift,80,female
+C++,89,female
+Visual Basic,34,female
+R,32,female
+PHP,50,male
+SQL,51,male
+Delphi/Object Pascal,50,male
+JavaScript,50,male
+Excel,50,male
+Python,50,male
+Scratch,50,male
+Java,50,male
+Objective-C,50,male
+JSON,50,male
+Assembly language,50,male
+CSS,50,male
+Ruby,50,male
+Visual Basic,50,male
+C#,50,male
+Perl,50,male
+Go,50,male
+Visual Basic .NET,50,male
+R,50,male
+Groovy,50,male
+C,50,male
+Swift,50,male
+C++,50,male
+XML,50,male
+HTML,50,male
+MATLAB,50,male
+Go,97,female
+Python,93,female
+Excel,3,female
+CSS,6,female
+JSON,14,female
+XML,22,female
+HTML,28,female
+Scratch,35,female
+tla+,13,noAns
+pluscal,6,noAns
+Haskell,78,male
+Scala,94,male
+R,64,male
+PHP,69,male
+CSS,20,male
+MATLAB,27,male
+JSON,7,male
+HTML,14,male
+Objective-C,83,male
+JavaScript,66,male
+C#,87,male
+Visual Basic,73,male
+SQL,37,male
+XML,6,male
+Python,76,male
+Delphi/Object Pascal,80,male
+Perl,51,male
+C++,79,male
+CSS,13,variant
+JSON,3,variant
+HTML,8,variant
+Assembly language,96,variant
+C,91,variant
+PHP,73,variant
+C++,78,variant
+Go,83,variant
+Objective-C,87,variant
+Ruby,41,variant
+Scratch,18,variant
+XML,4,variant
+Visual Basic,23,variant
+Python,50,variant
+SQL,32,variant
+Java,69,variant
+C#,69,variant
+JavaScript,64,variant
+SQL,87,female
+C#,88,female
+Objective-C,88,female
+Visual Basic .NET,88,female
+Visual Basic,89,female
+Go,87,female
+Java,87,female
+Swift,88,female
+Python,89,female
+MATLAB,88,female
+PHP,89,female
+C++,89,female
+JavaScript,88,female
+C,89,female
+R,89,female
+Excel,88,female
+Assembly language,87,female
+Ruby,89,female
+Perl,88,female
+XML,51,female
+CSS,69,female
+HTML,69,female
+Groovy,51,female
+JSON,51,female
+SQL,27,male
+JSON,11,male
+CSS,33,male
+Elixir ,51,male
+JavaScript,64,male
+Assembly language,88,male
+C,81,male
+C++,76,male
+HTML,22,male
+C++,75,male
+Python,43,male
+Assembly language,83,male
+C,75,male
+Java,71,male
+JavaScript,66,male
+JSON,13,male
+PHP,48,male
+XML,14,male
+HTML,19,male
+MATLAB,26,male
+Scratch,24,male
+Scala,87,male
+Objective-C,71,male
+Go,42,male
+Scratch,21,male
+MATLAB,18,male
+R,28,male
+JSON,9,male
+C++,92,male
+HTML,9,male
+Swift,66,male
+Java,73,male
+Assembly language,88,male
+Visual Basic,37,male
+Python,55,male
+Groovy,44,male
+Ruby,63,male
+XML,9,male
+JavaScript,60,male
+SQL,41,male
+Delphi/Object Pascal,70,male
+Excel,18,male
+PHP,56,male
+Perl,66,male
+Visual Basic .NET,40,male
+C,92,male
+C#,92,male
+CSS,9,male
+CSS,35,male
+JSON,5,male
+SQL,45,male
+JavaScript,89,male
+Objective-C,97,male
+C#,88,male
+Visual Basic,97,male
+C,98,male
+Java,97,male
+Go,93,male
+C++,97,male
+Assembly language,96,male
+XML,6,male
+Python,93,male
+Ruby,97,male
+HTML,25,male
+PHP,71,male
+Swift,89,male
+Delphi/Object Pascal,96,male
+Visual Basic .NET,78,male
+Excel,35,male
+Groovy,72,male
+Perl,88,male
+XML,20,male
+Perl,87,male
+Swift,64,male
+HTML,10,male
+Assembly language,92,male
+JSON,6,male
+Excel,33,male
+R,82,male
+MATLAB,72,male
+CSS,16,male
+C++,92,male
+JavaScript,59,male
+SQL,63,male
+Python,70,male
+Visual Basic,43,male
+C#,67,male
+Groovy,74,male
+C,85,male
+Go,68,male
+Delphi/Object Pascal,61,male
+Objective-C,83,male
+Java,73,male
+PHP,64,male
+Scratch,45,male
+Ruby,63,male
+Visual Basic .NET,49,male
+Assembly language,92,noAns
+Groovy,94,noAns
+Delphi/Object Pascal,90,noAns
+XML,5,noAns
+SQL,68,noAns
+JavaScript,71,noAns
+JSON,6,noAns
+C,95,noAns
+Go,95,noAns
+Java,95,noAns
+Excel,78,noAns
+Visual Basic,84,noAns
+Scratch,30,noAns
+Ruby,79,noAns
+C#,86,noAns
+CSS,46,noAns
+C++,77,noAns
+Visual Basic .NET,74,noAns
+Python,88,noAns
+Objective-C,78,noAns
+MATLAB,69,noAns
+HTML,15,noAns
+Perl,81,noAns
+Swift,73,noAns
+PHP,63,noAns
+R,76,noAns
+JSON,15,noAns
+Excel,8,noAns
+C#,88,noAns
+C,94,noAns
+XML,20,noAns
+MATLAB,32,noAns
+Visual Basic,33,noAns
+Scratch,33,noAns
+Swift,77,noAns
+HTML,22,noAns
+Go,85,noAns
+PHP,54,noAns
+Delphi/Object Pascal,65,noAns
+R,72,noAns
+Perl,47,noAns
+SQL,49,noAns
+Assembly language,91,noAns
+Java,94,noAns
+CSS,19,noAns
+C++,94,noAns
+JavaScript,92,noAns
+Visual Basic .NET,56,noAns
+Objective-C,78,noAns
+Ruby,75,noAns
+Groovy,78,noAns
+Python,69,noAns
+CSS,3,male
+Visual Basic,22,male
+Visual Basic .NET,26,male
+SQL,17,male
+Excel,13,male
+HTML,7,male
+C,89,male
+Go,97,male
+Python,94,male
+Objective-C,85,male
+JavaScript,50,male
+JavaScript,66,female
+Python,63,female
+Objective-C,68,female
+HTML,33,female
+C++,76,female
+Excel,58,female
+Swift,67,female
+PHP,65,female
+XML,34,female
+Perl,62,female
+Visual Basic,61,female
+Scratch,60,female
+C,79,female
+Go,71,female
+JSON,34,female
+Assembly language,75,female
+Java,68,female
+R,68,female
+SQL,57,female
+C#,78,female
+Visual Basic .NET,68,female
+Delphi/Object Pascal,70,female
+CSS,47,female
+Groovy,69,female
+MATLAB,71,female
+Ruby,68,female
+Lisp,94,male
+Haskell,93,male
+Python,50,female
+CSS,78,transM
+JSON,5,transM
+Assembly language,13,transM
